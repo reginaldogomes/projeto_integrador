@@ -2,3 +2,4 @@
 
 # Colaboradores
 Reginaldo Gomes
+Victor Daniel
