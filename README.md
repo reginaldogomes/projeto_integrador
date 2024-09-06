@@ -3,4 +3,3 @@
 # Colaboradores
 Reginaldo Gomes
 Victor Daniel
-Evandro Brandão
