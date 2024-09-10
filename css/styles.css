@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #fff;
+}
+
+header {
+  background: #ccc;
+  height: 48px;
+}
+
+main {
+  min-height: 600px;
+  background: #ff0000;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  height: 250px;
+  background: #ccc;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: #D3D3D3;
+}
+
+footer {
+  background: #ccc;
+  height: 48px;
+}
