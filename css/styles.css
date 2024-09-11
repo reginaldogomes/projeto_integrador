@@ -1,3 +1,10 @@
+:root {
+  --gray-light: #d3d3d3;  /* Cinza claro */
+  --gray-medium: #a9a9a9; /* Cinza médio */
+  --gray-dark: #696969;   /* Cinza escuro */
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,17 +13,41 @@
 
 body {
   background: #fff;
-  color: #fff;
+  color: var(--gray-dark);
 }
 
 header {
-  background: #ccc;
-  height: 48px;
+  background: var(--gray-light);
+  height: 60px;
+  display: flex;
+  padding: 16px;
+  gap: 8px;
+  justify-content: space-between;
 }
+
+header span {
+  background: var(--gray-medium);
+  padding: 8px;
+  width: 15%;
+  text-align: center;
+}
+
+header nav {
+  background: var(--gray-medium);
+  padding: 8px;
+  width: 35%;
+  text-align: center;
+}
+
+
 
 main {
   min-height: 600px;
   background: #ff0000;
+}
+
+main .hero {
+  
 }
 
 .container {
@@ -37,6 +68,6 @@ section:nth-child(even) {
 }
 
 footer {
-  background: #ccc;
+  background: var(--gray-light);
   height: 48px;
 }
