@@ -71,3 +71,19 @@ footer {
   background: var(--gray-light);
   height: 48px;
 }
+
+/*Seção2*/
+
+.section2{
+  text-align: center;
+  padding: 20px;
+}
+
+.feedbacks{
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback{
+  width: 22%;
+}
