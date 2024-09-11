@@ -2,6 +2,7 @@
   --gray-light: #d3d3d3;  /* Cinza claro */
   --gray-medium: #a9a9a9; /* Cinza médio */
   --gray-dark: #696969;   /* Cinza escuro */
+
 }
 
 
@@ -14,11 +15,11 @@
 body {
   background: #fff;
   color: var(--gray-dark);
+  font-size: 26px;
 }
 
 header {
   background: var(--gray-light);
-  height: 60px;
   display: flex;
   padding: 16px;
   gap: 8px;
@@ -42,12 +43,15 @@ header nav {
 
 
 main {
-  min-height: 600px;
   background: #ff0000;
 }
 
-main .hero {
-  
+main .section1 span {
+  background: var(--gray-medium);
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -58,16 +62,33 @@ main .hero {
 }
 
 section {
-  height: 250px;
   background: #ccc;
   text-align: center;
+  padding: 16px;
+
 }
 
 section:nth-child(even) {
   background: #D3D3D3;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background: var(--gray-light);
-  height: 48px;
+  padding: 8px;
+}
+
+footer span {
+  background: var(--gray-medium);
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
