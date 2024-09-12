@@ -68,9 +68,9 @@ section {
 
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
   background: #D3D3D3;
-}
+} */
 
 .gallery {
   display: flex;
@@ -98,13 +98,16 @@ footer span {
 .section2{
   text-align: center;
   padding: 20px;
+  background: #fff;
 }
 
 .feedbacks{
   display: flex;
   justify-content: space-between;
+  padding: 16px 16px
 }
 
 .feedback{
   width: 22%;
+  background: #000;
 }
