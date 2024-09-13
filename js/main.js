@@ -16,7 +16,7 @@ function renderContent(path) {
   // Definindo qual arquivo carregar com base na rota
   let page = '';
   switch (path) {
-    case '/':
+    case '/home':
       page = 'home.html';
       break;
     case '/about':
