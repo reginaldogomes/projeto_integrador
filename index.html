@@ -6,23 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="css/styles.css">
-
   <title>Floripa Tour</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
 
 </head>
 
 <body>
 
   <div class="container">
+
     <header>
       <span>Logo</span>
-      <nav>Menu</nav>
+      <nav>
+        <ul id="menu"></ul>
+      </nav>
     </header>
+
+    <div id="content">
+      <!-- Conteúdo carregado dinamicamente aparecerá aqui -->
+    </div>
 
     <main>
       <section class="section1">
@@ -57,7 +58,9 @@
           <div>6</div>
         </div>
       </section>
-      <section class="section5">Secao 5</section>
+      <section class="section5">
+        <ul id="touristSpots"></ul>
+      </section>
     </main>
 
     <footer>
@@ -67,7 +70,11 @@
 
 </body>
 
-<script src="js/scripts.js"></script>
-<script src="js/data.js"></script>
+<script src="js/data/config.js"></script>
+<script src="js/data/menu.js"></script>
+<script src="js/data/touristSpots.js"></script>
+
+<script src="js/functions.js"></script>
+<script src="js/main.js"></script>
 
 </html>
