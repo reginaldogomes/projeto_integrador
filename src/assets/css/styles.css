@@ -47,10 +47,9 @@ header nav {
   text-align: center;
 }
 
-
-
 main {
-  background: #ff0000;
+  display: flex;
+  flex-direction: column;
 }
 
 main .section1 span {
