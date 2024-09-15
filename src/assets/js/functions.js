@@ -33,6 +33,7 @@ function renderMenu() {
     link.textContent = item.name;
     
     // Adiciona o evento onclick para chamar navigateTo
+    link.setAttribute('data-link', item.link);
     link.setAttribute('onclick', `navigateTo(event, '${item.link}')`);
 
     listItem.appendChild(link);
