@@ -8,6 +8,16 @@
   },
   "keywords": [],
   "author": "",
+  "contributors": [
+    {
+      "name": "Reginaldo Gomes",
+      "email": "reginaldo@bhsolutions.com.br"
+    },
+    {
+      "name": "Segundo Contribuidor",
+      "email": "segundo@example.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1"
