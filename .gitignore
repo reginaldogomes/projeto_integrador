@@ -5,57 +5,20 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Diretórios de dependências
-node_modules/
-.pnp
-.pnp.js
-.pnp.cjs
+node_modules
+dist
+dist-ssr
+*.local
 
-# Arquivos de lock do gerenciador de pacotes
-package-lock.json
-yarn.lock
-.pnpm-lock.yaml
-
-# Diretórios de compilação e build
-dist/
-build/
-.temp/
-.cache/
-
-# Dependências por link de pacote
-.npm/
-
-# Sistema operacional
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Editor de código
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Ambiente
-.env
-.env.local
-.env.*.local
-
-# Test coverage
-coverage/
-
-# Depurações
-*.log
-
-# Cache do ESLint
-.eslintcache
-
-# Cache do TypeScript
-*.tsbuildinfo
-
-# Arquivos temporários
-*.tmp
-*.temp
-
-# Pastas de erro de depuração
-.error/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
