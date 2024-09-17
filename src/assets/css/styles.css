@@ -23,6 +23,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  display: flex;
+  flex-direction: column;
 }
 
 header {

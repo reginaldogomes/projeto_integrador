@@ -1,8 +1,7 @@
 import { touristSpots } from '../data/touristSpots';
 
 export function renderTouristSpots() {
-  const container = document.getElementById('touristSpots');
-
+  const container = document.getElementById('section');
   if (container) {
     const spotsHTML = touristSpots.map(spot => `
       <li>
@@ -18,5 +17,9 @@ export function renderTouristSpots() {
   } else {
     console.error('Elemento #touristSpots não encontrado no DOM.');
   }
-  return container
+  return container;
 }
+
+const list = renderTouristSpots();
+const targetElement = document.getElementById('testeUL');
+targetElement.prepend(list);

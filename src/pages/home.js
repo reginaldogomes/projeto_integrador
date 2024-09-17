@@ -9,6 +9,7 @@ export function renderHome() {
         <h1>Home</h1>
         <p>Veja os serviços que oferecemos.</p>
         <span>Hero Section</span>
+        <ul id="testeUL"></ul>
       </section>
       <section class="section2">
         <h2>Porque escolher a FloripaTour?</h2>
@@ -30,7 +31,3 @@ export function renderHome() {
       </section>
   `;
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  renderHome();
-});
