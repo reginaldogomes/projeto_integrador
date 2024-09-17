@@ -1,5 +1,5 @@
 // Objeto com os itens do menu
- const menuItems = [
+const menuItems = [
   { name: 'Home', link: '/' },
   { name: 'Sobre', link: '/about' },
   { name: 'Serviços', link: '/services' },

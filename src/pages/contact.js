@@ -1,7 +1,10 @@
 export function renderContact() {
   const app = document.getElementById('app');
   app.innerHTML = `
-      <h1>Contato</h1>
-      <p>Veja os serviços que oferecemos.</p>
+      <section class="section1">
+        <h1>Contact Us</h1>
+        <p>Veja os serviços que oferecemos.</p>
+        <span>Hero Section</span>
+      </section>
   `;
 }

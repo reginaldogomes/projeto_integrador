@@ -1,7 +1,10 @@
 export function renderServices() {
   const app = document.getElementById('app');
   app.innerHTML = `
-      <h1>Serviços</h1>
-      <p>Veja os serviços que oferecemos.</p>
+      <section class="section1">
+        <h1>Services</h1>
+        <p>Veja os serviços que oferecemos.</p>
+        <span>Hero Section</span>
+      </section>
   `;
 }
