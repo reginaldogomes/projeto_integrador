@@ -47,6 +47,16 @@ header nav {
   text-align: center;
 }
 
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* Centraliza o menu */
+  gap: 16px;
+}
+
+
 main {
   display: flex;
   flex-direction: column;

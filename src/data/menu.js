@@ -4,5 +4,5 @@ const menuItems = [
   { name: 'Sobre', link: '/about' },
   { name: 'Serviços', link: '/services' },
   { name: 'Contato', link: '/contact' },
-  { name: 'Blog', link: '/blog' }
+  { name: 'Blog', link: '/blog' },
 ];

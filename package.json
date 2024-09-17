@@ -2,14 +2,23 @@
   "name": "projeto_integrador",
   "version": "1.0.0",
   "description": "Este é o repositório do projeto **Floripa Tour**, desenvolvido como parte do curso **Talento Cloud**. O objetivo deste projeto é criar um site turístico informativo sobre a cidade de Florianópolis, destacando seus principais pontos turísticos, cultura, e história. O site é construído utilizando **HTML**, **CSS** e **JavaScript**.",
-  "main": "index.js",
+  "type": "module",
+  "contributors": [
+    {
+      "name": "Reginaldo Gomes",
+      "email": "reginaldo@bhsolutions.com.br"
+    },
+    {
+      "name": "Segundo Contribuidor",
+      "email": "segundo@example.com"
+    }
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "http-server": "^14.1.1"
+  "devDependencies": {
+    "vite": "^5.4.1"
   }
 }
