@@ -1,23 +1,20 @@
-// Função para renderizar o menu
-export function renderMenu() {
-  const menuElement = document.getElementById('menu');
+import { menuItems } from '../data/menu';
 
-  if (menuElement) {
-    menuElement.innerHTML = `
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
+export function renderMenu() {
+  const menu = document.createElement('nav');
+
+  if (menu) {
+    const menuHtml = menuItems.map(item => `
+      <li><a href="${item.link}">${item.name}</a></li>
+    `).join('');
+
+    menu.innerHTML = `
+      <ul>
+        ${menuHtml}
+      </ul>
     `;
   } else {
     console.error('Elemento #menu não encontrado no DOM.');
   }
+  return menu
 }
-
-// Garante que o código execute somente após o DOM estar pronto
-document.addEventListener('DOMContentLoaded', () => {
-  renderMenu()
-});

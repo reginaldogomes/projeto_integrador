@@ -1,8 +1,4 @@
-// import './style.css'
-// // import javascriptLogo from './javascript.svg'
-// // import viteLogo from '/vite.svg'
-
-import './assets/css/styles.css';  // Usando alias para assets
+import './assets/css/styles.css';
 import { router } from './router/router.js';
 import { renderHeader } from './components/Header';
 import { renderFooter } from './components/Footer';
