@@ -4,6 +4,9 @@
   --blue: #005baa;
   --orange: #ff990f;
   --white: #fff;
+  --grey: grey;
+
+  --text-color: --grey;
 }
 
 * {
@@ -13,9 +16,10 @@
 }
 
 body {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url(../img/bg-florianopolis.avif) top center no-repeat;
-  background-size: cover;
-  color: var(--white);
+  /* background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url(../img/bg-florianopolis.avif) top center no-repeat; */
+  /* background-size: cover; */
+  background: var(--white);
+  color: var(--text-color);
   font-size: 26px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -23,6 +27,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -60,6 +66,16 @@ header nav ul {
 main {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+}
+
+.child {
+  flex: 1; /* Faz o elemento filho ocupar o espaço disponível */
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .section1 span {
@@ -84,6 +100,11 @@ section {
 
 }
 
+.section1 {
+  background: url(../img/Home_Floripa_Tour.jpg) top center no-repeat;
+  background-size: cover;
+}
+
 /* section:nth-child(even) {
   background: #D3D3D3;
 } */
@@ -99,6 +120,10 @@ section {
 footer {
   background: var(--gray-light);
   padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer span {

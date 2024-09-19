@@ -1,14 +1,22 @@
+// import { renderTouristSpots } from "../components/TouristSpots"
+
 export function renderHome() {
+  
   const app = document.getElementById('app');
+
+  // const touristSpots = renderTouristSpots();
+  // app.appendChild(touristSpots);
+
   if (!app) {
     console.error('Elemento #app não encontrado!');
     return;
   }
   app.innerHTML = `
-      <section id="section" class="section1">
-        <h1>Home</h1>
-        <p>Veja os serviços que oferecemos.</p>
+      <section id="touristSpots" class="section1">
+        <h1>Onde a natureza e a cultura se encontram</h1>
+        <p>Explore a essência de Floripa e região: praias deslumbrantes, montanhas imponentes, lagoas cristalinas, trilhas emocionantes e um rico patrimônio histórico-cultural. Sinta a magia de Florianópolis em cada aventura! Bem-vindo(a) ao seu refúgio de maravilhas!</p>
         <span>Hero Section</span>
+        <ul id="testeUL"></ul>
       </section>
       <section class="section2">
         <h2>Porque escolher a FloripaTour?</h2>
@@ -30,7 +38,3 @@ export function renderHome() {
       </section>
   `;
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  renderHome();
-});
