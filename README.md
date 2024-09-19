@@ -51,7 +51,7 @@ FloripaTour/
 
 - **Reginaldo Gomes** - [GitHub](https://github.com/reginaldogomes)
 - **Victor Daniel** - [Github](https://github.com/VictorDanielSilva)
-- **Gil Moura**
+- **Gil Moura** - [Github] (https://github.com/gilmoura82)
 - **Evandro Brandão**
 
 ## 📝 Licença
