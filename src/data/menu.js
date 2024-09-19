@@ -2,7 +2,7 @@
 export const menuItems = [
   { name: 'Home', link: '/' },
   { name: 'Sobre', link: '/about' },
-  { name: 'Serviços', link: '/services' },
+  { name: 'Passeios', link: '/tours' },
   { name: 'Contato', link: '/contact' },
   { name: 'Blog', link: '/blog' },
 ];
