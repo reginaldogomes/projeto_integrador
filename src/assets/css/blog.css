@@ -1,5 +1,6 @@
 .blog-section {
   /* background: var(--blue); */
+  display: flex;
 }
 
 .blog-section .container {
