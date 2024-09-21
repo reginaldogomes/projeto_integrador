@@ -1,13 +1,14 @@
 .blog-section {
   /* background: var(--blue); */
   display: flex;
+  flex-direction: column;
 }
 
 .blog-section .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 36px
+  gap: 24px;
+  padding: 40px
 }
 
 .blog-section article {
