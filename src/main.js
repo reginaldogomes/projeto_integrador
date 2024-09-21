@@ -12,5 +12,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const footer = renderFooter();
     document.body.appendChild(footer);
-    
 });
