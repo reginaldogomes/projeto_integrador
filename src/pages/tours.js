@@ -1,3 +1,5 @@
+import '@/assets/css/tours.css';
+
 export function renderTours() {
   const app = document.getElementById('app');
   app.innerHTML = `
