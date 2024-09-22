@@ -8,7 +8,6 @@ export function renderTours() {
           <h1>Passeios</h1>
           <h3>Veja os passeios que oferecemos na ilha da magia.</h3>
         </div>
-        <section>
           <div class="container">
             <div class="card">
               <div class="card-header">
@@ -41,7 +40,6 @@ export function renderTours() {
               </div>
             </div>
           </div>
-        <section>
       </section>
   `;
 }
