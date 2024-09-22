@@ -17,7 +17,7 @@ export function renderTours() {
               <div class="card-body">
                 <h3>Titulo do Card</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saba Mais</a>
+                <a href="" class="btn">Saiba Mais</a>
               </div>
             </div>
             <div class="card">
@@ -27,7 +27,7 @@ export function renderTours() {
               <div class="card-body">
                 <h3>Titulo do Card</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saba Mais</a>
+                <a href="" class="btn">Saiba Mais</a>
               </div>
             </div>
             <div class="card">
@@ -37,7 +37,7 @@ export function renderTours() {
               <div class="card-body">
                 <h3>Titulo do Card</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saba Mais</a>
+                <a href="" class="btn">Saiba Mais</a>
               </div>
             </div>
           </div>
