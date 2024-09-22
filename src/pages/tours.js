@@ -13,10 +13,11 @@ export function renderTours() {
                 <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
               </div>
               <div class="card-body">
+                <h3>Titulo do Card</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               <div class="footer">
-                <p>Leia Mais</p>
+                <button>Saiba Mais</button>
               </div>
             </div>
           </div>
