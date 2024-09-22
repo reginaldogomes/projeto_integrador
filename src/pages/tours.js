@@ -6,6 +6,21 @@ export function renderTours() {
           <h1>Passeios</h1>
           <h3>Veja os passeios que oferecemos na ilha da magia.</h3>
         </div>
+        <section>
+          <div class="container">
+            <div class="card-1">
+              <div class="card-header">
+                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+              </div>
+              <div class="card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="footer">
+                <p>Leia Mais</p>
+              </div>
+            </div>
+          </div>
+        <section>
       </section>
   `;
 }
