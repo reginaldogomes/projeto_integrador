@@ -12,7 +12,7 @@ export function renderTours() {
           <div class="container">
             <div class="card">
               <div class="card-header">
-                <img src="/assets/img/Bombinhas02.svg" alt"Bombinhas">
+                <img src="/assets/img/Passeios/Bombinhas02.svg" alt"Bombinhas">
               </div>
               <div class="card-body">
                 <h3>Bombinhas</h3>
@@ -22,7 +22,7 @@ export function renderTours() {
             </div>
             <div class="card">
               <div class="card-header">
-                <img src="/assets/img/Dunasdosantinho.svg" alt"Dunas do Santinho">
+                <img src="/assets/img/Passeios/Dunasdosantinho.svg" alt"Dunas do Santinho">
               </div>
               <div class="card-body">
                 <h3>Dunas do Santinho</h3>
@@ -32,7 +32,7 @@ export function renderTours() {
             </div>
             <div class="card">
               <div class="card-header">
-                <img src="/assets/img/IlhadoCampeche.svg" alt"Ilha do Campache">
+                <img src="/assets/img/Passeios/IlhadoCampeche.svg" alt"Ilha do Campache">
               </div>
               <div class="card-body">
                 <h3>Ilha do Campache</h3>
