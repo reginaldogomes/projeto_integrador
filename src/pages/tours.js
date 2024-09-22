@@ -10,16 +10,34 @@ export function renderTours() {
         </div>
         <section>
           <div class="container">
-            <div class="card-1">
+            <div class="card">
               <div class="card-header">
                 <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
               </div>
               <div class="card-body">
                 <h3>Titulo do Card</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                <a href="" class="btn">Saba Mais</a>
               </div>
-              <div class="footer">
-                <button>Saiba Mais</button>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+              </div>
+              <div class="card-body">
+                <h3>Titulo do Card</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                <a href="" class="btn">Saba Mais</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+              </div>
+              <div class="card-body">
+                <h3>Titulo do Card</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                <a href="" class="btn">Saba Mais</a>
               </div>
             </div>
           </div>
