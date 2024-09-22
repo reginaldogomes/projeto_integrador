@@ -12,30 +12,30 @@ export function renderTours() {
           <div class="container">
             <div class="card">
               <div class="card-header">
-                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+                <img src="/assets/img/Bombinhas02.svg" alt"Bombinhas">
               </div>
               <div class="card-body">
-                <h3>Titulo do Card</h3>
+                <h3>Bombinhas</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
                 <a href="" class="btn">Saiba Mais</a>
               </div>
             </div>
             <div class="card">
               <div class="card-header">
-                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+                <img src="/assets/img/Dunasdosantinho.svg" alt"Dunas do Santinho">
               </div>
               <div class="card-body">
-                <h3>Titulo do Card</h3>
+                <h3>Dunas do Santinho</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
                 <a href="" class="btn">Saiba Mais</a>
               </div>
             </div>
             <div class="card">
               <div class="card-header">
-                <img src="https://via.placeholder.com/300x200" alt"Ponto Turistico">
+                <img src="/assets/img/IlhadoCampeche.svg" alt"Ilha do Campache">
               </div>
               <div class="card-body">
-                <h3>Titulo do Card</h3>
+                <h3>Ilha do Campache</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
                 <a href="" class="btn">Saiba Mais</a>
               </div>
