@@ -11,8 +11,12 @@
     {
       "name": "Victor Daniel da Silva Batista",
       "email": "victordanielbatista.contato@gmail.com"
+    },
+    {
+      "name": "Evandro Brandão",
+      "email": "evandrobrandao@hotmail.com"
     }
-  ],
+   ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
