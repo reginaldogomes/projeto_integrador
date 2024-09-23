@@ -29,7 +29,7 @@ export function renderContact() {
             <label for="message">Mensagem:</label>
             <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
           </div>
-          <button type="submit">Enviar</button>
+          <button class="button_contact" type="submit">Enviar</button>
         </form>
       </section>
   `;
