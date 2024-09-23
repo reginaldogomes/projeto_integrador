@@ -1,7 +1,11 @@
 export function renderContact() {
   const app = document.getElementById('app');
   app.innerHTML = `
-      <section class="section1">
+      <section class="section">
+        <div class="heading-page">
+          <h1>Contato</h1>
+          <p>Entre em contato conosco</p>
+        </div>
         <form class="contact-form" action="#" method="post">
           <div class="form-group">
             <label for="name">Nome:</label>

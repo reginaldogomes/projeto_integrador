@@ -1,6 +1,6 @@
 import { renderHome } from '../pages/home.js';
 import { renderAbout } from '../pages/about.js';
-import { renderServices } from '../pages/services.js';
+import { renderTours } from '../pages/tours.js';
 import { renderContact } from '../pages/contact.js';
 import { renderBlog } from '../pages/blog.js';
 
@@ -8,7 +8,7 @@ export function router() {
     const routes = {
         '/': renderHome,
         '/about': renderAbout,
-        '/services': renderServices,
+        '/tours': renderTours,
         '/contact': renderContact,
         '/blog': renderBlog,
     };
