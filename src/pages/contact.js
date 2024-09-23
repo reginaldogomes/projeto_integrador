@@ -1,3 +1,5 @@
+import '@/assets/css/contact.css';
+
 export function renderContact() {
   const app = document.getElementById('app');
   app.innerHTML = `
