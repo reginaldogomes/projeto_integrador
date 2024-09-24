@@ -1,7 +1,7 @@
-import '@/assets/css/contact.css';
+import '@/assets/css/contact.css'
 
 export function renderContact() {
-  const app = document.getElementById('app');
+  const app = document.getElementById('app')
   app.innerHTML = `
       <section class="section">
         <div class="heading-page">
@@ -39,5 +39,5 @@ export function renderContact() {
                     
         </form>
       </section>
-  `;
+  `
 }

@@ -1,15 +1,14 @@
 // import { renderTouristSpots } from "../components/TouristSpots"
 
 export function renderHome() {
-  
-  const app = document.getElementById('app');
+  const app = document.getElementById('app')
 
   // const touristSpots = renderTouristSpots();
   // app.appendChild(touristSpots);
 
   if (!app) {
-    console.error('Elemento #app não encontrado!');
-    return;
+    console.error('Elemento #app não encontrado!')
+    return
   }
   app.innerHTML = `
     <section id="touristSpots" class="section1">
@@ -34,5 +33,5 @@ export function renderHome() {
         </div>
       </div>
     </section>
-  `;
+  `
 }

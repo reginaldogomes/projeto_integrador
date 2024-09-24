@@ -5,6 +5,5 @@ const config = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.title = config.projectName + " - " + config.version;
+  document.title = config.projectName + ' - ' + config.version
 })
-
