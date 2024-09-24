@@ -5,6 +5,6 @@ export function renderFooter() {
   footer.innerHTML = `
     <p>© Floripa Tour – 2024. Todos direitos reservados.</p>
   `
-  
+
   return footer
 }
