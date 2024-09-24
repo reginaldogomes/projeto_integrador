@@ -2,10 +2,8 @@
 import logoImg from '@/assets/img/logo-floripa-tour.svg'
 
 export function renderLogo() {
+  const logo = document.createElement('img')
+  logo.setAttribute('src', logoImg)
 
-  const logo = document.createElement('img');
-  logo.setAttribute('src', logoImg);
-
-  return logo;
-  
+  return logo
 }

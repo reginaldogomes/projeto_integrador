@@ -1,7 +1,7 @@
-import '@/assets/css/tours.css';
+import '@/assets/css/tours.css'
 
 export function renderTours() {
-  const app = document.getElementById('app');
+  const app = document.getElementById('app')
   app.innerHTML = `
       <section class="section">
         <div class="heading-page">
@@ -41,5 +41,5 @@ export function renderTours() {
             </div>
           </div>
       </section>
-  `;
+  `
 }

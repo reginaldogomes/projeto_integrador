@@ -5,4 +5,4 @@ export const menuItems = [
   { name: 'Passeios', link: '/tours' },
   { name: 'Contato', link: '/contact' },
   { name: 'Blog', link: '/blog' },
-];
+]

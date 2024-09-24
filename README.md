@@ -1,4 +1,3 @@
-
 # Floripa Tour - Agência de Ecoturismo em Florianópolis
 
 Este é o repositório do projeto **Floripa Tour**, desenvolvido como parte do curso **Talento Cloud**. O objetivo deste projeto é criar um site turístico informativo sobre a cidade de Florianópolis, destacando seus principais pontos turísticos, cultura, e história. O site é construído utilizando **HTML**, **CSS** e **JavaScript**.
