@@ -26,10 +26,17 @@ export function renderContact() {
             <input type="text" id="whatsapp" name="whatsapp" placeholder="Seu WhatsApp" required>
           </div>
           <div class="form-group">
-            <label for="message">Mensagem:</label>
+            <label for="message">Mensagem:</label><br>
             <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            
+            <p>Nacionalidade:</p>
+            <input type="radio" name="nacionalidade" id="brasil" value="brasil">
+            <label for="brasil">Brasileiro(a)</label>
+            <input type="radio" name="nacionalidade" id="outro" value="outro">
+            <label for="outro">Estrangeiro(a)</label>
           </div>
           <button class="button_contact" type="submit">Enviar</button>
+                    
         </form>
       </section>
   `
