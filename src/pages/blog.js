@@ -1,7 +1,7 @@
-import '@/assets/css/blog.css';
+import '@/assets/css/blog.css'
 
 export function renderBlog() {
-  const app = document.getElementById('app');
+  const app = document.getElementById('app')
   app.innerHTML = `
       <section class="blog-section">
         <div class="heading-page">
@@ -47,5 +47,5 @@ export function renderBlog() {
           </article>
         </section>
       </div>
-  `;
+  `
 }

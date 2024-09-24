@@ -1,17 +1,17 @@
-import { defineConfig } from 'vite';
-import path from 'path';
+import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
-    root: 'src', 
-    resolve: {
-        alias: {
-          '@': path.resolve(__dirname, './src'),  
-        },
-      },
-    server: {
-        historyApiFallback: true,  
+  root: 'src',
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
     },
-    build: {
-        outDir: '../dist', 
-    },
-});
+  },
+  server: {
+    historyApiFallback: true,
+  },
+  build: {
+    outDir: '../dist',
+  },
+})

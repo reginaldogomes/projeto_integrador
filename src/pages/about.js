@@ -1,5 +1,5 @@
 export function renderAbout() {
-  const app = document.getElementById('app');
+  const app = document.getElementById('app')
   app.innerHTML = `
       <section class="section">
         <div class="heading-page">
@@ -10,5 +10,5 @@ export function renderAbout() {
         Com o objetivo de oferecer uma experiência imersiva e informativa, nosso portal destaca os principais pontos turísticos de Florianópolis, desde
         suas praias mundialmente famosas até as áreas de preservação ambiental que fazem da cidade um destino único para o ecoturismo.</p>
       </section>
-  `;
+  `
 }
