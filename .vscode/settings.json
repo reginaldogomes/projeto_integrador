@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true, // Formatar o código automaticamente ao salvar
+  "editor.tabSize": 2, // Definir o tamanho da indentação como 2 espaços
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Definir o Prettier como formatter padrão
+  "files.exclude": {
+    "node_modules": true // Excluir a pasta node_modules da visualização
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "prettier.requireConfig": true, // Garantir que o Prettier só formate se o arquivo de config estiver presente
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+}
