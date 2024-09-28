@@ -14,5 +14,5 @@
   "prettier.requireConfig": true, // Garantir que o Prettier só formate se o arquivo de config estiver presente
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  },
+  }
 }
