@@ -1,4 +1,5 @@
 import './assets/css/styles.css'
+import './assets/css/responsive.css'
 import { router } from './router/router.js'
 import { renderHeader } from './components/Header'
 import { renderFooter } from './components/Footer'
