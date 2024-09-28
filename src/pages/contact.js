@@ -6,7 +6,7 @@ export function renderContact() {
       <section class="section">
         <div class="heading-page">
           <h1>Contato</h1>
-          <p>Entre em contato conosco</p>
+          <h3>Entre em contato conosco</h3>
         </div>
         <form class="contact-form" action="#" method="post">
           <div class="form-group">

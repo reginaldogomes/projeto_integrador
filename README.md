@@ -1,4 +1,4 @@
-# Floripa Tour - Agência de Ecoturismo em Florianópolis
+# Floripa Tour - Portal Turístico de Florianópolis
 
 Este é o repositório do projeto **Floripa Tour**, desenvolvido como parte do curso **Talento Cloud**. O objetivo deste projeto é criar um site turístico informativo sobre a cidade de Florianópolis, destacando seus principais pontos turísticos, cultura, e história. O site é construído utilizando **HTML**, **CSS** e **JavaScript**.
 
@@ -15,20 +15,7 @@ Este é o repositório do projeto **Floripa Tour**, desenvolvido como parte do c
 - **HTML5**: Estruturação do conteúdo e semântica
 - **CSS3**: Estilização, animações e responsividade
 - **JavaScript**: Interatividade e manipulação do DOM
-
-## 📂 Estrutura do Projeto
-
-```
-FloripaTour/
-│
-├── index.html          # Página inicial do site
-├── css/
-│   └── styles.css      # Arquivo de estilos principal
-├── js/
-│   └── main.js         # Arquivo de scripts JavaScript
-├── images/             # Pasta com as imagens do site
-└── README.md           # Documentação do projeto
-```
+- **ViteJS**: Ferramenta rápida para bundling de projetos front-end
 
 ## 🔧 Como Executar o Projeto
 
@@ -41,16 +28,20 @@ FloripaTour/
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd FloripaTour
+   cd projeto_integrador
    ```
 
-3. Abra o arquivo `index.html` no seu navegador para visualizar o site.
+3. Execute o comando:
+
+   ```bash
+   npm run dev
+   ```
 
 ## 👥 Colaboradores
 
 - **Reginaldo Gomes** - [GitHub](https://github.com/reginaldogomes)
 - **Victor Daniel** - [Github](https://github.com/VictorDanielSilva)
-- **Gil Moura** - [Github] (https://github.com/gilmoura82)
+- **Gil Moura** - [Github](https://github.com/gilmoura82)
 - **Evandro Brandão** [Github](https://github.com/evanbms)
 
 ## 📝 Licença
