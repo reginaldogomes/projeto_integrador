@@ -12,8 +12,12 @@ export function renderHome() {
   }
   app.innerHTML = `
     <section id="touristSpots" class="section1">
-      <h1>O Encontro Perfeito entre Natureza e Encanto</h1>
-      <p>Desperte Seus Sentidos com Praias de Tirar o Fôlego, Montanhas Imponentes, Lagoas Cristalinas e Trilhas Vibrantes. Viva a Magia de Florianópolis e Redescubra o Seu Refúgio de Aventuras!</p>
+      <h1>Florianópolis: Onde a Natureza Se Transforma em Pura Emoção</h1>
+      <p>Explore Praias Surreais, Descubra Montanhas de Aventuras e Deixe-se Guiar Pelas Belezas Inesquecíveis. Viva a Magia e Renove Seus Sentidos em Cada Paisagem!</p>
+    </section>
+    <section class="section">
+      <h2>Os passeios na ilha</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque </p>
     </section>
     <section class="section2">
       <h2>Porque escolher a FloripaTour?</h2>

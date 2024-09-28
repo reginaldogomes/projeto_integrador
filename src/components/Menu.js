@@ -13,7 +13,7 @@ export function renderMenu() {
       .join('')
 
     menu.innerHTML = `
-      <ul>
+      <ul id="menu">
         ${menuHtml}
       </ul>
     `

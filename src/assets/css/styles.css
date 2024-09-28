@@ -4,7 +4,7 @@
   --blue: #005baa;
   --orange: #ff990f;
   --white: #fff;
-  --grey: grey;
+  --grey: #808080;
 
   --text-color: --grey;
 }
@@ -20,7 +20,7 @@ body {
   /* background-size: cover; */
   background: var(--white);
   color: var(--text-color);
-  font-size: 26px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -36,29 +36,36 @@ header {
   padding: 16px;
   gap: 8px;
   justify-content: space-between;
+  align-items: center;
 }
 
-header span {
-  background: var(--gray-medium);
-  padding: 8px;
-  width: 15%;
-  text-align: center;
+header img {
+  width: 250px;
 }
 
 header nav {
   background: var(--gray-medium);
-  padding: 8px;
-  width: 35%;
-  text-align: center;
 }
 
 header nav ul {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
   justify-content: center; /* Centraliza o menu */
   gap: 16px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: 1.5rem;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+header nav ul a:hover {
+  color: var(--orange);
+  transform: scale(1.05);
 }
 
 main {
@@ -108,11 +115,16 @@ section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: var(--white);
 }
-
-.heading-page h3 {
+.heading-page h1 {
+  color: var(--white);
   font-weight: normal;
+  font-size: 3rem;
+}
+.heading-page h3 {
+  color: var(--white);
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 .section1 {
@@ -152,6 +164,10 @@ footer span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer p {
+  font-size: 14px;
 }
 
 /*Seção2*/
