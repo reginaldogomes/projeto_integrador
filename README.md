@@ -15,6 +15,7 @@ Este é o repositório do projeto **Floripa Tour**, desenvolvido como parte do c
 - **HTML5**: Estruturação do conteúdo e semântica
 - **CSS3**: Estilização, animações e responsividade
 - **JavaScript**: Interatividade e manipulação do DOM
+- **ViteJS**: Ferramenta rápida para bundling de projetos front-end
 
 ## 🔧 Como Executar o Projeto
 
