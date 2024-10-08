@@ -3,7 +3,7 @@ import '@/assets/css/contact.css'
 export function renderContact() {
   const app = document.getElementById('app')
   app.innerHTML = `
-      <section class="section">
+      <section class="section-contact">
         <div class="heading-page">
           <h1>Contato</h1>
           <h3>Entre em contato conosco</h3>
