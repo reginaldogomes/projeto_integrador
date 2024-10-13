@@ -3,7 +3,7 @@
 
 export const touristSpots = [
   {
-    imgSrc: '/assets/img/Passeios/Bombinhas02.svg',
+    imgSrc: '/assets/img/Passeios/Bombinhas02.jpg',
     imgAlt: 'Bombinhas',
     title: 'Bombinhas',
     description:
