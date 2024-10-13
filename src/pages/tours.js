@@ -6,40 +6,39 @@ export function renderTours() {
       <section class="section">
         <div class="heading-page">
           <h1>Passeios</h1>
-          <h3>Veja os passeios que oferecemos na ilha da magia.</h3>
+          <h3>Veja os passeios que oferecemos na ilha da magina.</h3>
         </div>
-          <div class="container">
-            <div class="card">
-              <div class="card-header">
-                <img src="/assets/img/Passeios/Bombinhas02.svg" alt"Bombinhas">
-              </div>
-              <div class="card-body">
-                <h3>Bombinhas</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saiba Mais</a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <img src="/assets/img/Passeios/Dunasdosantinho.svg" alt"Dunas do Santinho">
-              </div>
-              <div class="card-body">
-                <h3>Dunas do Santinho</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saiba Mais</a>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <img src="/assets/img/Passeios/IlhadoCampeche.svg" alt"Ilha do Campache">
-              </div>
-              <div class="card-body">
-                <h3>Ilha do Campache</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
-                <a href="" class="btn">Saiba Mais</a>
-              </div>
-            </div>
-          </div>
+        <div class="container" id="cards-container"></div>
       </section>
   `
+
+  const tours = [
+    {
+      imgSrc: '/assets/img/Passeios/Bombinhas02.svg',
+      imgAlt: 'Bombinhas',
+      title: 'Bombinhas',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+    },
+    {
+      imgSrc: '/assets/img/Passeios/Dunasdosantinho.svg',
+      imgAlt: 'Dunas do Santinho',
+      title: 'Dunas do Santinho',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+    },
+    {
+      imgSrc: '/assets/img/Passeios/IlhadoCampeche.svg',
+      imgAlt: 'Ilha do Campeche',
+      title: 'Ilha do Campeche',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
+    },
+  ]
+
+  const cardsContainer = document.getElementById('cards-container')
+  tours.forEach((tours) => {
+    const card = createCard(tour)
+    cardsContainer.appendChild(card)
+  })
 }
