@@ -10,14 +10,14 @@ export const touristSpots = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
   },
   {
-    imgSrc: '/assets/img/Passeios/Dunasdosantinho.svg',
+    imgSrc: '/assets/img/Passeios/Dunas-do-santinho-.jpg',
     imgAlt: 'Dunas do Santinho',
     title: 'Dunas do Santinho',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
   },
   {
-    imgSrc: '/assets/img/Passeios/IlhadoCampeche.svg',
+    imgSrc: '/assets/img/Passeios/IlhadoCampeche.jpg',
     imgAlt: 'Ilha do Campeche',
     title: 'Ilha do Campeche',
     description:
