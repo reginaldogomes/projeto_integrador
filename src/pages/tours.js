@@ -1,5 +1,5 @@
 import '@/assets/css/tours.css'
-import { touristSpots } from '../data/touristSpots' 
+import { touristSpots } from '../data/touristSpots'
 
 export function renderTours() {
   const app = document.getElementById('app')
