@@ -18,5 +18,19 @@
 }
 
 .section-contact {
-  background: url(../img/floripa_background.jpg) top center no-repeat;
+  background:lightgray;
+  
+  
+}
+.form-group {
+  margin:5px;
+}
+
+input {
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+label {
+  font-weight:bold;
 }
