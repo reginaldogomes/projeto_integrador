@@ -1,28 +1,26 @@
 // /assets/js/data.js
+// src/data/touristSpots.js
+
 export const touristSpots = [
   {
-    nome: 'Cristo Redentor',
-    cidade: 'Rio de Janeiro',
-    estado: 'RJ',
+    imgSrc: '/assets/img/Passeios/Bombinhas02.jpg',
+    imgAlt: 'Bombinhas',
+    title: 'Bombinhas',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
   },
   {
-    nome: 'Praia de Copacabana',
-    cidade: 'Rio de Janeiro',
-    estado: 'RJ',
+    imgSrc: '/assets/img/Passeios/Dunas-do-santinho-.jpg',
+    imgAlt: 'Dunas do Santinho',
+    title: 'Dunas do Santinho',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
   },
   {
-    nome: 'Cataratas do Iguaçu',
-    cidade: 'Foz do Iguaçu',
-    estado: 'PR',
-  },
-  {
-    nome: 'Pão de Açúcar',
-    cidade: 'Rio de Janeiro',
-    estado: 'RJ',
-  },
-  {
-    nome: 'Museu do Ipiranga',
-    cidade: 'São Paulo',
-    estado: 'SP',
+    imgSrc: '/assets/img/Passeios/IlhadoCampeche.jpg',
+    imgAlt: 'Ilha do Campeche',
+    title: 'Ilha do Campeche',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
   },
 ]

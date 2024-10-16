@@ -197,3 +197,7 @@ footer p {
   background: var(--white);
   padding: 32px;
 }
+
+#menu :hover {
+  float: left;
+}
