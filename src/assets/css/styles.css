@@ -137,6 +137,11 @@ section {
   align-items: center;
 }
 
+.section-page {
+  display: flex;
+  flex-direction: column;
+}
+
 /* section:nth-child(even) {
   background: #D3D3D3;
 } */

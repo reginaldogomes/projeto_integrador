@@ -78,7 +78,7 @@ export function renderPostDetails(postIndex) {
 // Criação da seção de posts
 function createSection() {
   const section = document.createElement('section')
-  section.className = 'blog-section'
+  section.className = 'section-page'
   return section
 }
 
