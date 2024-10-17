@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 100px;
   font-family: sans-serif;
 }
 
@@ -53,5 +52,5 @@
 }
 
 .card-body a:hover {
-  background-color: #e68a0b; 
+  background-color: #e68a0b;
 }

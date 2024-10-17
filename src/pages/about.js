@@ -1,7 +1,7 @@
 export function renderAbout() {
   const app = document.getElementById('app')
   app.innerHTML = `
-      <section class="section">
+      <section class="section-page">
         <div class="heading-page">
           <h1>Sobre o Floripa Tour</h1>
           <h3>Conheça nossa historia</h3>
