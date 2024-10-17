@@ -33,4 +33,37 @@ export const posts = [
     urlImg:
       'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
   },
+  {
+    id: 4,
+    title: 'Aprendendo Vite com Vanilla JS',
+    excerpt:
+      'Vanilla JavaScript oferece uma base leve e eficiente sem a necessidade de frameworks pesados.',
+    content:
+      'Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade.',
+    author: 'Carlos Pereira',
+    urlImg:
+      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+  },
+  {
+    id: 5,
+    title: 'Aprendendo Vite com Vanilla JS',
+    excerpt:
+      'Vanilla JavaScript oferece uma base leve e eficiente sem a necessidade de frameworks pesados.',
+    content:
+      'Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade.',
+    author: 'Carlos Pereira',
+    urlImg:
+      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+  },
+  {
+    id: 5,
+    title: 'Aprendendo Vite com Vanilla JS',
+    excerpt:
+      'Vanilla JavaScript oferece uma base leve e eficiente sem a necessidade de frameworks pesados.',
+    content:
+      'Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade. Combinar Vite com JavaScript puro permite um desenvolvimento moderno com simplicidade.',
+    author: 'Carlos Pereira',
+    urlImg:
+      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+  },
 ]

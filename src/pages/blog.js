@@ -32,13 +32,16 @@ export function renderPostDetails(postIndex) {
 
   if (post) {
     const section = document.createElement('section')
-    section.className = 'section'
+    section.className = 'section-page'
 
     // Inclui o HeadingPage para o cabeçalho da página de detalhes
     const headingPage = HeadingPage({
       title: 'Blog',
       subtitle: 'Notícias sobre ecoturismo em Floripa',
     })
+
+    const postContainer = document.createElement('div')
+    postContainer.className = 'container'
 
     const postDetails = document.createElement('div')
     postDetails.className = 'post-details'
@@ -68,7 +71,8 @@ export function renderPostDetails(postIndex) {
     postDetails.appendChild(backLink)
 
     section.appendChild(headingPage) // Adiciona o HeadingPage
-    section.appendChild(postDetails)
+    section.appendChild(postContainer)
+    postContainer.appendChild(postDetails)
     app.appendChild(section)
   } else {
     app.innerHTML = '<p>Post não encontrado!</p>'
