@@ -1,0 +1,36 @@
+.button_contact {
+  background-color: orange;
+  font-size: 20px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.button_contact:hover {
+  box-shadow:
+    0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading-page {
+  text-shadow: 2px 2px 5px orangered;
+}
+
+.section-contact {
+  background:lightgray;
+  
+  
+}
+.form-group {
+  margin:5px;
+}
+
+input {
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+label {
+  font-weight:bold;
+}
