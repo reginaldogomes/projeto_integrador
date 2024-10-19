@@ -54,3 +54,85 @@
 .card-body a:hover {
   background-color: #e68a0b;
 }
+
+.top-beaches {
+  border-radius: 50px 50px 0 0;
+}
+
+.top-beaches, .natural-attractions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.beach-header, .attraction-header {
+  flex-basis: 30%;
+  max-width: 400px;
+}
+
+.beach-cards, .attraction-cards {
+  display: flex;
+  flex-basis: 65%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.beach-card, .attraction-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.beach-card img, .attraction-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.card-tags {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.tag {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #007bff;
+  border-radius: 15px;
+  border: 1px solid #007bff;
+}
+
+h3 {
+  font-size: 16px;
+  padding: 10px;
+  color: #333;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.beach-card:hover, .attraction-card:hover {
+  transform: translateY(-10px);
+}

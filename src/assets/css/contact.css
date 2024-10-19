@@ -18,12 +18,10 @@
 }
 
 .section-contact {
-  background:lightgray;
-  
-  
+  background: lightgray;
 }
 .form-group {
-  margin:5px;
+  margin: 5px;
 }
 
 input {
@@ -32,5 +30,5 @@ input {
 }
 
 label {
-  font-weight:bold;
+  font-weight: bold;
 }
