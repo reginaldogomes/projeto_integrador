@@ -43,7 +43,7 @@ export function renderPostDetails(postIndex) {
     const postContainer = document.createElement('div')
     postContainer.className = 'container'
 
-    const postDetails = document.createElement('div')
+    const postDetails = document.createElement('article')
     postDetails.className = 'post-details'
 
     const title = document.createElement('h1')
