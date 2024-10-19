@@ -17,18 +17,10 @@ export function renderTours() {
             </div>
             <div class="beach-cards">
                 <div class="beach-card">
-                    <div class="card-tags">
-                        <span class="tag">Lombok Barat</span>
-                        <span class="tag">Beach</span>
-                    </div>
-                    <img src="https://via.placeholder.com/600x600?text=Seling+Blanak+Beach" alt="Seling Blanak Beach">
-                    <h3>Seling Blanak Beach</h3>
+                    <img src="assets/img/Passeios/Campeche.jpg" alt="Campeche">
+                    <h3>Ilha do Campeche</h3>
                 </div>
                 <div class="beach-card">
-                    <div class="card-tags">
-                        <span class="tag">Lombok Barat</span>
-                        <span class="tag">Beach</span>
-                    </div>
                     <img src="https://via.placeholder.com/600x600?text=Seling+Blanak+Beach" alt="Seling Blanak Beach">
                     <h3>Seling Blanak Beach</h3>
                 </div>
