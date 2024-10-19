@@ -1,0 +1,8 @@
+:root {
+  --blue: #005baa;
+  --orange: #ff990f;
+  --white: #fff;
+  --grey: #808080;
+
+  --text-color: --grey;
+}

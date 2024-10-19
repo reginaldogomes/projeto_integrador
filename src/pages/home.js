@@ -1,4 +1,5 @@
 // import { renderTouristSpots } from "../components/TouristSpots"
+import '/assets/css/home.css'
 
 export function renderHome() {
   const app = document.getElementById('app')
@@ -11,9 +12,12 @@ export function renderHome() {
     return
   }
   app.innerHTML = `
-    <section id="touristSpots" class="section1">
-      <h1>Florianópolis: Onde a Natureza Se Transforma em Pura Emoção</h1>
-      <p>Explore Praias Surreais, Descubra Montanhas de Aventuras e Deixe-se Guiar Pelas Belezas Inesquecíveis. Viva a Magia e Renove Seus Sentidos em Cada Paisagem!</p>
+    <section class="hero">
+      <div class="hero__content">
+        <span>Florianópolis</span>
+        <h1>Onde a Natureza Se Transforma em Pura Emoção</h1>
+        <p>Explore Praias Surreais, Descubra Montanhas de Aventuras e Deixe-se Guiar Pelas Belezas Inesquecíveis. Viva a Magia e Renove Seus Sentidos em Cada Paisagem!</p>
+      </div>
     </section>
     <section class="section">
       <h2>Os passeios na ilha</h2>
