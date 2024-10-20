@@ -43,6 +43,7 @@
 /*Avaliação*/
 .feedback {
   text-align: center;
+  margin-top: 15px;
 }
 
 h2 {
@@ -67,13 +68,15 @@ h2 {
 }
 
 h4 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /*Separa Conteúdo*/
 .linha-separadora {
-  border-bottom: 1px solid #000000;
-  margin: 10px 0;
+  height: 1px;
+  background-color: #000;
+  margin: 40px 0;
+  width: 100%;
 }
 
 /* Melhores Praias */
@@ -248,25 +251,34 @@ h4 {
 /*Passeios em Destaque Line */
 .highlighted-tours {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 40px 0;
+  margin: 10px 0;
 }
 
 .highlighted-tours h2 {
-  flex: 1;
-  text-align: center;
   position: relative;
-  margin: 0;
-  font-size: 1.5em;
-  color: #ff990f;
+  padding: 0 20px;
+  font-size: 24px;
+  text-align: center;
 }
 
 .highlighted-tours h2::before,
 .highlighted-tours h2::after {
   content: '';
-  flex: 1;
-  border-bottom: 1px solid #333;
-  margin: 0 10px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.highlighted-tours h2::before {
+  left: 100%;
+}
+
+.highlighted-tours h2::after {
+  right: 100%;
 }
 
 /*Passeios em Destaque */

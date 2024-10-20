@@ -17,16 +17,20 @@ export function renderTours() {
     <div class="carrossel">
       <div class="avaliacoes">
         <div class="avaliacao active">
-          <p>"Ótima experiência! Recomendo para todos."</p>
-          <h4>— João Silva</h4>
+          <p>"Os passeios em Floripa são de tirar o fôlego! As trilhas e as praias são simplesmente maravilhosas."</p>
+          <h4>— Renata Alves</h4>
         </div>
         <div class="avaliacao">
-          <p>"Um lugar incrível, voltarei com certeza!"</p>
-          <h4>— Maria Oliveira</h4>
+          <p>"A experiência de fazer snorkeling nas águas cristalinas é um verdadeiro paraíso!"</p>
+          <h4>— Lucas Martins</h4>
         </div>
         <div class="avaliacao">
-          <p>"Serviço excelente e atendimento nota 10."</p>
-          <h4>— Pedro Santos</h4>
+          <p>"Florianópolis é a combinação perfeita de natureza e cultura. A cidade tem um charme único!"</p>
+          <h4>— Gabriela Lima</h4>
+        </div>
+        <div class="avaliacao">
+          <p>"A infraestrutura da cidade está ótima, com muitas opções de transporte e atrações para todos os gostos."</p>
+          <h4>— Eduardo Rocha</h4>
         </div>
         <div class="avaliacao">
           <p>"Melhor lugar para relaxar e aproveitar a praia!"</p>
@@ -80,6 +84,31 @@ export function renderTours() {
     const card = createCard(tour)
     cardsContainer.appendChild(card)
   })
+
+  // Lógica do carrossel
+  let index = 0
+  const avaliacoes = document.querySelectorAll('.avaliacao')
+  const totalAvaliacoes = avaliacoes.length
+
+  function mudarAvaliacao() {
+    index++
+
+    if (index >= totalAvaliacoes) {
+      index = 0 // Volta para o primeiro
+    }
+
+    atualizarCarrossel()
+  }
+
+  function atualizarCarrossel() {
+    const avaliacaoContainer = document.querySelector('.avaliacoes')
+    const offset = -index * 100
+    avaliacaoContainer.style.transform = `translateX(${offset}%)` // Aplica a transformação CSS
+  }
+
+  // Inicia o carrossel
+  atualizarCarrossel()
+  setInterval(mudarAvaliacao, 3000) // Muda a avaliação a cada 3 segundos
 }
 
 function createCard({ imgSrc, imgAlt, title, description }) {
