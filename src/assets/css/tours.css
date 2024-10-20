@@ -168,6 +168,7 @@ h4 {
   color: white;
   font-size: 18px;
   padding: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
 /* Responsividade */

@@ -38,7 +38,7 @@ export function renderTours() {
   <div class="linha-separadora"></div>
   <div class="top-beaches">
     <div class="beach-text">
-      <h2>Melhores Praias</h2>
+      <h2>Praias de Destaque</h2>
       <p>Descubra o paraíso em Floripa! A Ilha do Campeche impressiona com suas águas cristalinas e areias brancas, perfeita para relaxar. Já a Praia de Joaquina, famosa pelas ondas, atrai surfistas e tem um ambiente vibrante. Venha viver momentos inesquecíveis nessas praias deslumbrantes</p>
     </div>
     <div class="beach-cards">
@@ -55,12 +55,12 @@ export function renderTours() {
   <div class="natural-attractions">
     <div class="attraction-cards">
       <div class="imagem-container">
-        <img src="assets/img/passeios/jurere.png" alt="Cachoeira do Rio Verde">
-        <div class="texto-overlay">Cachoeira do Rio Verde</div>
+        <img src="assets/img/passeios/picodacoroa.png" alt="Pico da Coroa">
+        <div class="texto-overlay">Pico da Coroa</div>
       </div>
       <div class="imagem-container">
-        <img src="/assets/img/passeios/jurere.png" alt="Vista do Morro do Cambirela">
-        <div class="texto-overlay">Vista do Morro do Cambirela</div>
+        <img src="/assets/img/passeios/SnorkelingTartarugas.png" alt="Snorkeling Com Tartarugas">
+        <div class="texto-overlay">Mergulho com Tartarugas</div>
       </div>
     </div>
     <div class="attraction-header">
