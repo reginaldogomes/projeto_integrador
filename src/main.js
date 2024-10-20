@@ -1,3 +1,4 @@
+import './assets/css/variables.css'
 import './assets/css/styles.css'
 import './assets/css/responsive.css'
 import { router } from './router/router.js'
