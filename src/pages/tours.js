@@ -39,7 +39,7 @@ export function renderTours() {
   <div class="top-beaches">
     <div class="beach-text">
       <h2>Melhores Praias</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Descubra o paraíso em Floripa! A Ilha do Campeche impressiona com suas águas cristalinas e areias brancas, perfeita para relaxar. Já a Praia de Joaquina, famosa pelas ondas, atrai surfistas e tem um ambiente vibrante. Venha viver momentos inesquecíveis nessas praias deslumbrantes</p>
     </div>
     <div class="beach-cards">
       <div class="imagem-container">
@@ -47,8 +47,8 @@ export function renderTours() {
         <div class="texto-overlay">Ilha do Campeche</div>
       </div>
       <div class="imagem-container">
-        <img src="assets/img/passeios/Campeche.jpg" alt="Descrição da Imagem">
-        <div class="texto-overlay">Ilha do Campeche</div>
+        <img src="assets/img/passeios/Joaquina.png" alt="Descrição da Imagem">
+        <div class="texto-overlay">Praia da Joaquina</div>
       </div>
     </div>     
   </div>
