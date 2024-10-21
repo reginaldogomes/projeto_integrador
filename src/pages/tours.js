@@ -7,39 +7,8 @@ export function renderTours() {
 <section class="section">
   <div class="heading-page">
     <h1>Passeios</h1>
-    
+    <h3>Veja os passeios que oferecemos na ilha da magia.</h3>
   </div>
-  <div class="banner">
-    <img src="/assets/img/Passeios/PonteHercilioLuz.png" alt="Ponte Hercílio Luz">
-  </div>
-  <div class="feedback">
-    <h2>Avaliações</h2>
-    <div class="carrossel">
-      <div class="avaliacoes">
-        <div class="avaliacao active">
-          <p>"Os passeios em Floripa são de tirar o fôlego! As trilhas e as praias são simplesmente maravilhosas."</p>
-          <h4>— Renata Alves</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"A experiência de fazer snorkeling nas águas cristalinas é um verdadeiro paraíso!"</p>
-          <h4>— Lucas Martins</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"Florianópolis é a combinação perfeita de natureza e cultura. A cidade tem um charme único!"</p>
-          <h4>— Gabriela Lima</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"A infraestrutura da cidade está ótima, com muitas opções de transporte e atrações para todos os gostos."</p>
-          <h4>— Eduardo Rocha</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"Melhor lugar para relaxar e aproveitar a praia!"</p>
-          <h4>— Ana Costa</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="linha-separadora"></div>
   <div class="top-beaches">
     <div class="beach-text">
       <h2>Praias de Destaque</h2>
@@ -69,13 +38,40 @@ export function renderTours() {
     </div>
     <div class="attraction-header">
       <h2>Belezas Naturais</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Descubra o Pico da Coroa, com suas vistas deslumbrantes do Atlântico e vegetação local, e mergulhe nas águas cristalinas para observar tartarugas marinhas de perto. Uma experiência inesquecível de contato com a natureza.</p>
     </div>
   </div>
   <div class="highlighted-tours">
     <h2>Passeios em Destaque</h2>
   </div>
   <div class="container" id="cards-container"></div>
+  <div class="feedback">
+    <h2>Avaliações</h2>
+    <div class="carrossel">
+      <div class="avaliacoes">
+        <div class="avaliacao active">
+          <p>"Os passeios em Floripa são de tirar o fôlego! As trilhas e as praias são simplesmente maravilhosas."</p>
+          <h4>— Renata Alves</h4>
+        </div>
+        <div class="avaliacao">
+          <p>"A experiência de fazer snorkeling nas águas cristalinas é um verdadeiro paraíso!"</p>
+          <h4>— Lucas Martins</h4>
+        </div>
+        <div class="avaliacao">
+          <p>"Florianópolis é a combinação perfeita de natureza e cultura. A cidade tem um charme único!"</p>
+          <h4>— Gabriela Lima</h4>
+        </div>
+        <div class="avaliacao">
+          <p>"A infraestrutura da cidade está ótima, com muitas opções de transporte e atrações para todos os gostos."</p>
+          <h4>— Eduardo Rocha</h4>
+        </div>
+        <div class="avaliacao">
+          <p>"Melhor lugar para relaxar e aproveitar a praia!"</p>
+          <h4>— Ana Costa</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
   `
 
