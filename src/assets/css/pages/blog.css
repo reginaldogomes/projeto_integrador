@@ -1,11 +1,27 @@
-.container {
+.container-blog {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 24px;
   padding: 32px;
 }
 
-.container article {
+.container-blog-post-details {
+  padding: 32px;
+}
+
+.container-blog-post-details .section-post-details {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+}
+
+.container-blog-post-details .section-post-details .post-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container-blog article {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -13,37 +29,41 @@
   transition: transform 0.3s ease;
 }
 
-.container article:hover {
+.container-blog article:hover {
   transform: scale(1.05);
 }
 
-.container img {
+.container-blog img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.container header {
+.container-blog header {
   padding: 20px;
   background-color: #f9f9f9;
 }
 
-.container h2 {
+.container-blog article p {
+  padding: 20px;
+}
+
+.container-blog h2 {
   font-size: 1.5rem;
   margin: 0 0 10px;
   color: #333;
 }
 
-.container footer {
+.container-blog footer {
   padding: 20px;
 }
 
-.read-more {
+.container-blog .read-more {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.read-more:hover {
+.container-blog .read-more:hover {
   text-decoration: underline;
 }
