@@ -1,4 +1,6 @@
 // src/components/Header.js
+import '@/assets/css/components/header.css'
+
 import { renderLogo } from './Logo'
 import { renderMenu } from './Menu'
 

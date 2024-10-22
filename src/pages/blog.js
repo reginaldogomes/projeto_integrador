@@ -1,10 +1,11 @@
+import '/assets/css/pages/blog.css'
 import { posts } from '/data/posts.js'
 import { HeadingPage } from '/components/HeadingPage.js'
-import '/assets/css/blog.css'
 
 // Função para renderizar a lista de posts
 export function renderBlog() {
   const app = document.getElementById('app')
+
   app.innerHTML = '' // Limpa o conteúdo anterior
 
   const section = createSection()
@@ -26,22 +27,24 @@ export function renderBlog() {
 // Função para renderizar os detalhes de um post
 export function renderPostDetails(postIndex) {
   const app = document.getElementById('app')
+
   app.innerHTML = '' // Limpa o conteúdo anterior
 
   const post = posts[postIndex]
 
   if (post) {
-    const section = document.createElement('section')
-    section.className = 'section-page'
-
     // Inclui o HeadingPage para o cabeçalho da página de detalhes
     const headingPage = HeadingPage({
-      title: 'Blog',
+      title: 'Blog Detalhes',
       subtitle: 'Notícias sobre ecoturismo em Floripa',
     })
+    app.appendChild(headingPage)
 
     const postContainer = document.createElement('div')
-    postContainer.className = 'container'
+    postContainer.className = 'container-blog-post-details'
+
+    const postSection = document.createElement('section')
+    postSection.className = 'section-post-details'
 
     const postDetails = document.createElement('article')
     postDetails.className = 'post-details'
@@ -70,10 +73,10 @@ export function renderPostDetails(postIndex) {
     postDetails.appendChild(author)
     postDetails.appendChild(backLink)
 
-    section.appendChild(headingPage) // Adiciona o HeadingPage
-    section.appendChild(postContainer)
-    postContainer.appendChild(postDetails)
-    app.appendChild(section)
+    // section.appendChild(headingPage) // Adiciona o HeadingPage
+    postSection.appendChild(postDetails)
+    postContainer.appendChild(postSection)
+    app.appendChild(postContainer)
   } else {
     app.innerHTML = '<p>Post não encontrado!</p>'
   }
@@ -89,7 +92,7 @@ function createSection() {
 // Criação do contêiner de posts
 function createPostContainer(posts) {
   const postContainer = document.createElement('div')
-  postContainer.className = 'container'
+  postContainer.className = 'container-blog'
 
   posts.forEach((post, index) => {
     const article = createPostElement(post, index)
@@ -109,7 +112,7 @@ function createPostElement(post, index) {
     <header>
       <h2>${post.title}</h2>
     </header>
-    <p>${post.content}</p>
+    <p>${post.excerpt}</p>
     <p><strong>Autor:</strong> ${post.author}</p>
     <footer>
       <a href="#" class="read-more" data-index="${index}">Leia mais</a>

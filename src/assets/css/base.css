@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url(../img/bg-florianopolis.avif) top center no-repeat; */
+  /* background-size: cover; */
+  background: var(--white);
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
