@@ -10,7 +10,8 @@ export const touristSpots = [
       'A península de Bombinhas, famosa por suas águas cristalinas, de tons azulados e tranquilas, é sem dúvida um dos destinos mais desejados pelos turistas que visitam Santa Catarina.',
   },
   {
-    imgSrc: '/assets/img/Passeios/dunas-do-santinho.jpg',
+    imgSrc:
+      'https://viajantesemfim.com.br/wp-content/uploads/2023/01/IMG_3131_jpg-scaled.jpg',
     imgAlt: 'Dunas do Santinho',
     title: 'Dunas do Santinho',
     description:
