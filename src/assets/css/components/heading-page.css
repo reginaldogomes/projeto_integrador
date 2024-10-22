@@ -1,0 +1,17 @@
+.heading-page {
+  background-color: var(--blue);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-page h1,
+h3 {
+  color: var(--white);
+  font-weight: normal;
+  font-size: 3rem;
+}
+.heading-page h3 {
+  font-size: 2rem;
+}

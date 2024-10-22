@@ -1,4 +1,6 @@
 // src/HeadingPage.js
+import '/assets/css/components/heading-page.css'
+
 export function HeadingPage({ title, subtitle }) {
   // Cria o elemento principal
   const headingPage = document.createElement('div')
