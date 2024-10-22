@@ -28,7 +28,8 @@ export function renderAbout() {
 
   // Cria o elemento de imagem
   const image = document.createElement('img')
-  image.src = '/assets/img/ponte-hercilio-luz-florianopolis-sc.webp' // Defina o caminho correto da imagem
+  image.src =
+    'https://www.pousadadossonhos.com.br/wp-content/uploads/2019/02/ponte-hercilio-luz-florianopolis-sc.jpg' // Defina o caminho correto da imagem
   image.alt = 'Ponte Hercilio Luz Florianópolis SC'
 
   // Adiciona a imagem ao container
