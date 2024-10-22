@@ -1,0 +1,19 @@
+.container-about {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1280px;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+}
+
+.container-about img {
+  width: 40%;
+  border-radius: 16px;
+}
+
+.container-about p {
+  font-size: 1.1rem;
+  font-weight: normal;
+  font-style: normal;
+}
