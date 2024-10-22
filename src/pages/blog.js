@@ -1,10 +1,11 @@
+import '/assets/css/pages/blog.css'
 import { posts } from '/data/posts.js'
 import { HeadingPage } from '/components/HeadingPage.js'
-import '/assets/css/blog.css'
 
 // Função para renderizar a lista de posts
 export function renderBlog() {
   const app = document.getElementById('app')
+
   app.innerHTML = '' // Limpa o conteúdo anterior
 
   const section = createSection()

@@ -1,4 +1,6 @@
 // src/components/Footer.js
+import '@/assets/css/components/footer.css'
+
 export function renderFooter() {
   const footer = document.createElement('footer')
 

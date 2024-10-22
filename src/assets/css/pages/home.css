@@ -1,3 +1,7 @@
+.container-home {
+  background: #000;
+}
+
 .hero {
   background: url(../img/Home_Floripa_Tour.jpg) top center no-repeat;
   background-size: cover;

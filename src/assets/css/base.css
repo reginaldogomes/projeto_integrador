@@ -21,59 +21,17 @@ body {
   flex-direction: column;
 }
 
-header {
-  background: var(--gray-light);
-  display: flex;
-  padding: 16px;
-  gap: 8px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
-  width: 250px;
-}
-
-header nav {
-  background: var(--gray-medium);
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center; /* Centraliza o menu */
-  gap: 16px;
-}
-
-header nav ul a {
-  text-decoration: none;
-  color: var(--grey);
-  font-size: 1.5rem;
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease;
-}
-
-header nav ul a:hover {
-  color: var(--orange);
-  transform: scale(1.05);
-}
-
 main {
   display: flex;
   flex-direction: column;
 }
 
-section {
-  text-align: center;
-}
-
-.section {
+/* .section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* .section1 {
   background: url(../img/Home_Floripa_Tour.jpg) top center no-repeat;
@@ -85,10 +43,10 @@ section {
   align-items: center;
 } */
 
-.section-page {
+/* .section-page {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* section:nth-child(even) {
   background: #D3D3D3;
@@ -102,34 +60,13 @@ section {
   align-items: center;
 }
 
-footer {
-  background: var(--gray-light);
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer span {
-  background: var(--gray-medium);
-  min-height: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  font-size: 14px;
-}
-
 /*Seção2*/
 
-.section2 {
+/* .section2 {
   text-align: center;
   background: var(--orange);
   padding: 80px 0 80px 0;
-}
+} */
 
 .feedbacks {
   display: flex;

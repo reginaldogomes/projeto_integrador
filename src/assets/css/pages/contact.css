@@ -1,3 +1,12 @@
+.container-contact {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 64px;
+  gap: 16px;
+}
+
 .button_contact {
   background-color: orange;
   font-size: 20px;
@@ -13,11 +22,11 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.heading-page {
+/* .heading-page {
   text-shadow: 2px 2px 5px orangered;
-}
+} */
 
-.section-contact {
+/* .section-contact {
   background: lightgray;
 }
 .form-group {
@@ -31,4 +40,4 @@ input {
 
 label {
   font-weight: bold;
-}
+} */

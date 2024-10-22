@@ -1,5 +1,5 @@
+import '/assets/css/pages/about.css'
 import { HeadingPage } from '/components/HeadingPage.js'
-import '/assets/css/about.css'
 
 export function renderAbout() {
   const app = document.getElementById('app')

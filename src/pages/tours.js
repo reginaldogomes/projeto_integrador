@@ -1,14 +1,31 @@
-import '@/assets/css/tours.css'
+import '@/assets/css/pages/tours.css'
+import { HeadingPage } from '/components/HeadingPage.js'
 import { touristSpots } from '../data/touristSpots'
+import { initCarousel } from '/components/Carousel.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+  initCarousel('.feedback') // Seleciona o container do carrossel
+})
 
 export function renderTours() {
   const app = document.getElementById('app')
+
+  // Limpa o conteúdo anterior, se houver
+  app.innerHTML = ''
+
+  // Cria o conteúdo da página usando createElement para evitar o uso direto de innerHTML
+  const container = document.createElement('div')
+  container.classList.add('container-tours')
+
+  // Cria e insere o componente HeadingPage
+  const headingPage = HeadingPage({
+    title: 'Passeios',
+    subtitle: 'Veja os passeios que oferecemos na ilha da magia.',
+  })
+  app.appendChild(headingPage)
+
   app.innerHTML = `
 <section class="section">
-  <div class="heading-page">
-    <h1>Passeios</h1>
-    <h3>Veja os passeios que oferecemos na ilha da magia.</h3>
-  </div>
   <div class="top-beaches">
     <div class="beach-text">
       <h2>Praias de Destaque</h2>
@@ -45,33 +62,7 @@ export function renderTours() {
     <h2>Passeios em Destaque</h2>
   </div>
   <div class="container" id="cards-container"></div>
-  <div class="feedback">
-    <h2>Avaliações</h2>
-    <div class="carrossel">
-      <div class="avaliacoes">
-        <div class="avaliacao active">
-          <p>"Os passeios em Floripa são de tirar o fôlego! As trilhas e as praias são simplesmente maravilhosas."</p>
-          <h4>— Renata Alves</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"A experiência de fazer snorkeling nas águas cristalinas é um verdadeiro paraíso!"</p>
-          <h4>— Lucas Martins</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"Florianópolis é a combinação perfeita de natureza e cultura. A cidade tem um charme único!"</p>
-          <h4>— Gabriela Lima</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"A infraestrutura da cidade está ótima, com muitas opções de transporte e atrações para todos os gostos."</p>
-          <h4>— Eduardo Rocha</h4>
-        </div>
-        <div class="avaliacao">
-          <p>"Melhor lugar para relaxar e aproveitar a praia!"</p>
-          <h4>— Ana Costa</h4>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 </section>
   `
 
