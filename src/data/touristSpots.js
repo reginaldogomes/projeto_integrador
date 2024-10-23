@@ -1,6 +1,3 @@
-// /assets/js/data.js
-// src/data/touristSpots.js
-
 export const touristSpots = [
   {
     imgSrc:
