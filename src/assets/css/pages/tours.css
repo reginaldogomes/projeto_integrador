@@ -58,3 +58,39 @@
 .card-body a:hover {
   background-color: #e68a0b;
 }
+
+.hidden {
+  display: none;
+}
+
+.details-container {
+  padding: 20px;
+}
+
+.details-header img {
+  width: 100%;
+  height: auto;
+}
+
+.back-button {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.cards-container,
+.details-container {
+  transition: opacity 0.3s ease;
+}
+
+.gallery-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
