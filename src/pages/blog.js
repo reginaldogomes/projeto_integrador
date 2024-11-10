@@ -2,109 +2,66 @@ import '/assets/css/pages/blog.css'
 import { posts } from '/data/posts.js'
 import { HeadingPage } from '/components/HeadingPage.js'
 
-// Função para renderizar a lista de posts
 export function renderBlog() {
   const app = document.getElementById('app')
-
   app.innerHTML = '' // Limpa o conteúdo anterior
 
   const section = createSection()
-  const headingPage = HeadingPage({
-    title: 'Blog',
-    subtitle: 'Notícias sobre ecoturismo em Floripa',
-  })
-
+  const heading = createHeading()
   const postContainer = createPostContainer(posts)
 
-  const fragment = document.createDocumentFragment()
-  fragment.appendChild(headingPage)
-  fragment.appendChild(postContainer)
-
-  section.appendChild(fragment)
+  section.append(heading, postContainer)
   app.appendChild(section)
 }
 
-// Função para renderizar os detalhes de um post
+function createHeading() {
+  return HeadingPage({
+    title: 'Blog',
+    subtitle: 'Notícias sobre ecoturismo em Floripa',
+  })
+}
+
 export function renderPostDetails(postIndex) {
   const app = document.getElementById('app')
-
   app.innerHTML = '' // Limpa o conteúdo anterior
 
   const post = posts[postIndex]
-
   if (post) {
-    // Inclui o HeadingPage para o cabeçalho da página de detalhes
-    const headingPage = HeadingPage({
+    const heading = HeadingPage({
       title: 'Blog Detalhes',
       subtitle: 'Notícias sobre ecoturismo em Floripa',
     })
-    app.appendChild(headingPage)
 
-    const postContainer = document.createElement('div')
-    postContainer.className = 'container-blog-post-details'
+    const postContainer = createPostDetails(post)
 
-    const postSection = document.createElement('section')
-    postSection.className = 'section-post-details'
-
-    const postDetails = document.createElement('article')
-    postDetails.className = 'post-details'
-
-    const title = document.createElement('h1')
-    title.textContent = post.title
-
-    const content = document.createElement('p')
-    content.textContent = post.content
-
-    const author = document.createElement('p')
-    author.innerHTML = `<strong>Autor:</strong> ${post.author}`
-
-    // Cria o botão de voltar para a lista
-    const backLink = document.createElement('a')
-    backLink.href = '#'
-    backLink.textContent = 'Voltar para a lista'
-    backLink.className = 'back-link'
-    backLink.addEventListener('click', (e) => {
-      e.preventDefault()
-      renderBlog() // Volta para a lista de posts
-    })
-
-    postDetails.appendChild(title)
-    postDetails.appendChild(content)
-    postDetails.appendChild(author)
-    postDetails.appendChild(backLink)
-
-    // section.appendChild(headingPage) // Adiciona o HeadingPage
-    postSection.appendChild(postDetails)
-    postContainer.appendChild(postSection)
-    app.appendChild(postContainer)
+    app.append(heading, postContainer)
   } else {
     app.innerHTML = '<p>Post não encontrado!</p>'
   }
 }
 
-// Criação da seção de posts
 function createSection() {
   const section = document.createElement('section')
   section.className = 'section-page'
   return section
 }
 
-// Criação do contêiner de posts
 function createPostContainer(posts) {
   const postContainer = document.createElement('div')
   postContainer.className = 'container-blog'
 
   posts.forEach((post, index) => {
-    const article = createPostElement(post, index)
-    postContainer.appendChild(article)
+    const postElement = createPostElement(post, index)
+    postContainer.appendChild(postElement)
   })
 
   return postContainer
 }
 
-// Criação de um elemento individual de post
 function createPostElement(post, index) {
   const article = document.createElement('article')
+  article.className = 'post-item'
+
   article.innerHTML = `
     <figure>
       <img src="${post.urlImg}" alt="Imagem do Post">
@@ -119,15 +76,41 @@ function createPostElement(post, index) {
     </footer>
   `
 
-  // Adiciona o evento de clique no link "Leia mais"
-  const readMoreLink = article.querySelector('.read-more')
-  readMoreLink.addEventListener('click', (e) => {
+  article.querySelector('.read-more').addEventListener('click', (e) => {
     e.preventDefault()
-    renderPostDetails(index) // Chama a função que exibe os detalhes do post
+    renderPostDetails(index)
   })
 
   return article
 }
 
-// Inicializa a aplicação ao carregar a página
+function createPostDetails(post) {
+  const postContainer = document.createElement('div')
+  postContainer.className = 'container-blog-post-details'
+
+  const postDetails = document.createElement('article')
+  postDetails.className = 'post-details'
+
+  postDetails.innerHTML = `
+    <img src="${post.urlImg}" alt="Imagem do Post">
+    <h1>${post.title}</h1>
+    <p>${post.content}</p>
+    <p><strong>Autor:</strong> ${post.author}</p>
+  `
+
+  const backLink = document.createElement('a')
+  backLink.href = '#'
+  backLink.textContent = 'Voltar para a lista'
+  backLink.className = 'back-link'
+  backLink.addEventListener('click', (e) => {
+    e.preventDefault()
+    renderBlog()
+  })
+
+  postDetails.appendChild(backLink)
+  postContainer.appendChild(postDetails)
+
+  return postContainer
+}
+
 window.addEventListener('DOMContentLoaded', renderBlog)
