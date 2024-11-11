@@ -64,6 +64,11 @@ export function renderContact() {
       url: 'https://instagram.com/empresa',
       icon: 'fab fa-instagram',
     },
+    {
+      name: 'Twitter',
+      url: 'https://x.com/i/flow/login',
+      icon: 'fab fa-x',
+    },
   ]
 
   socialMedia.forEach(({ name, url, icon }) => {
@@ -91,7 +96,7 @@ export function renderContact() {
 
   const mapIframe = document.createElement('iframe')
   mapIframe.src =
-    'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15002.503510486065!2d-43.93413985!3d-19.940164399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1728996655863!5m2!1sen!2sbr'
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56575.3889835878!2d-48.577619050305145!3d-27.594713550794182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394eb2c632d7%3A0x81bc550b6a04c746!2sFlorian%C3%B3polis%2C%20State%20of%20Santa%20Catarina!5e0!3m2!1sen!2sbr!4v1731356866986!5m2!1sen!2sbr'
   mapIframe.width = '100%'
   mapIframe.height = '350'
   mapIframe.style.border = '0'
