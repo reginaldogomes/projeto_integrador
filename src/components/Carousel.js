@@ -12,9 +12,10 @@ export function createTestimonialCarousel(containerSelector, testimonials) {
       slide.classList.add('carousel-slide')
       if (index === 0) slide.classList.add('active')
       slide.innerHTML = `
-        <img src="${testimonial.image}" alt="Foto de ${testimonial.author}">
+        <img src="${testimonial.image}" alt="Foto de ${testimonial.author}"> 
         <p>"${testimonial.quote}"</p>
         <h4>- ${testimonial.author}</h4>
+        
       `
       container.appendChild(slide)
     })

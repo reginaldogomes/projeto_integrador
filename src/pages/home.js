@@ -98,7 +98,7 @@ export function renderHome() {
       imgAlt: 'Sul da Ilha',
       title: 'Tour no Sul da Ilha',
       excerpt:
-        'Explore o Sul da Ilha e descubra praias exuberantes e uma lagoa encantadora.',
+        'Explore o Sul da Ilha e descubra praias exuberantes e uma lagoa encantadora de tirar o fôlego.',
     },
     {
       imgSrc: 'https://likefloripa.com/wp-content/uploads/2023/01/IMG_7965.jpg',

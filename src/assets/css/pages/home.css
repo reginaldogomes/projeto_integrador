@@ -185,3 +185,8 @@
   align-items: center;
   margin: 32px 0 32px;
 }
+
+ p.grid-item-description {
+  margin-bottom: 90px;
+  
+}
