@@ -1,18 +1,17 @@
-// import { renderTouristSpots } from "../components/TouristSpots"
 import '/assets/css/pages/home.css'
+// import { renderTouristSpots } from "../components/TouristSpots"
+import { renderComponent, cardsData } from '../components/Card'
 import { createTestimonialCarousel } from '../components/Carousel'
 
 export function renderHome() {
   const app = document.getElementById('app')
 
-  // Limpa o conteúdo anterior, se houver
   if (!app) {
     console.error('Elemento #app não encontrado!')
     return
   }
   app.innerHTML = '' // Limpa o conteúdo anterior
 
-  // Cria o conteúdo da página usando createElement para evitar o uso direto de innerHTML
   const container = document.createElement('div')
   container.classList.add('container-home')
 
@@ -23,7 +22,6 @@ export function renderHome() {
   const heroContent = document.createElement('div')
   heroContent.className = 'hero__content'
 
-  // Adicionando o texto
   const locationSpan = document.createElement('span')
   locationSpan.textContent = 'Florianópolis'
 
@@ -34,17 +32,114 @@ export function renderHome() {
   paragraph.textContent =
     'Explore Praias Surreais, Descubra Montanhas de Aventuras e Deixe-se Guiar Pelas Belezas Inesquecíveis. Viva a Magia e Renove Seus Sentidos em Cada Paisagem!'
 
-  // Montando a estrutura do Hero
   heroContent.appendChild(locationSpan)
   heroContent.appendChild(heading)
   heroContent.appendChild(paragraph)
   heroSection.appendChild(heroContent)
   container.appendChild(heroSection)
 
-  // Adiciona o container da página ao app
   app.appendChild(container)
 
-  // Testemunhos para os carousels
+  // Teste Section
+  const testeSection = document.createElement('section')
+  testeSection.className = 'container-teste'
+  container.appendChild(testeSection)
+
+  const divider = document.createElement('div')
+  divider.className = 'divider'
+  divider.innerHTML = `
+  <div class="divider-line"></div>
+  <span class="divider-text">O que fazer</span>
+  <div class="divider-line"></div>
+`
+
+  const testeHeading = document.createElement('h2')
+  testeHeading.className = 'heading'
+  testeHeading.innerHTML =
+    'Conheça os <strong>melhores locais para curtir</strong>'
+
+  const description = document.createElement('p')
+  description.className = 'description'
+  description.innerHTML =
+    'Aqui, você pode desfrutar de <b>trilhas incríveis, praias paradisíacas, passeios de barco e cidades históricas encantadoras</b>. Venha explorar conosco esse lugar único e surpreendente.'
+
+  const grid = document.createElement('div')
+  grid.className = 'grid'
+
+  // Dados dos locais turísticos
+  const touristSpots = [
+    {
+      imgSrc:
+        'https://cdn-clubecandeias.s3.sa-east-1.amazonaws.com/uploads/2022/11/bombinhas-santa-catarina-clube-candeias.jpeg',
+      imgAlt: 'Bombinhas',
+      title: 'Bombinhas',
+      excerpt:
+        'Descubra Bombinhas, uma das joias de Santa Catarina, conhecida por suas águas cristalinas e praias paradisíacas.',
+    },
+    {
+      imgSrc:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89EmsFkyZrRfzoYIdVI2kLyKeLtPze0l8qg&s',
+      imgAlt: 'Dunas do Santinho',
+      title: 'Dunas do Santinho',
+      excerpt:
+        'Visite as Dunas do Santinho, um local de beleza natural perfeita para quem busca aventura e tranquilidade.',
+    },
+    {
+      imgSrc:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0PKqemXaoPL4cJCu_Uts7UGfiOWRw2dUow&s',
+      imgAlt: 'Ilha do Campeche',
+      title: 'Ilha do Campeche',
+      excerpt:
+        'Aventure-se pela Ilha do Campeche e explore suas paisagens naturais e águas cristalinas.',
+    },
+    {
+      imgSrc:
+        'https://www.carpemundi.com.br/wp-content/uploads/2017/04/campeche-floripa.jpg',
+      imgAlt: 'Sul da Ilha',
+      title: 'Tour no Sul da Ilha',
+      excerpt:
+        'Explore o Sul da Ilha e descubra praias exuberantes e uma lagoa encantadora.',
+    },
+    {
+      imgSrc: 'https://likefloripa.com/wp-content/uploads/2023/01/IMG_7965.jpg',
+      imgAlt: 'Fortaleza de Anhatomirim',
+      title: 'Fortaleza de Anhatomirim',
+      excerpt:
+        'Conheça a Fortaleza de Anhatomirim e mergulhe na história fascinante de Santa Catarina.',
+    },
+  ]
+
+  // Seleciona 3 locais aleatórios
+  const randomSpots = touristSpots.sort(() => 0.5 - Math.random()).slice(0, 3)
+
+  randomSpots.forEach((spot) => {
+    const gridItem = document.createElement('div')
+    gridItem.className = 'grid-item'
+
+    gridItem.innerHTML = `
+    <div class="grid-item-image" style="background-image: url('${spot.imgSrc}');" alt="${spot.imgAlt}"></div>
+    <div class="grid-item-content">
+      <h2 class="grid-item-title">${spot.title}</h2>
+      <p class="grid-item-description">${spot.excerpt}</p>
+    </div>
+  `
+    grid.appendChild(gridItem)
+  })
+
+  // Botão "Ver todos"
+  const viewAllButton = document.createElement('a')
+  viewAllButton.href = 'tours'
+  viewAllButton.className = 'view-all-button'
+  viewAllButton.textContent = 'Ver todos'
+
+  // Adiciona elementos à seção
+  testeSection.appendChild(divider)
+  testeSection.appendChild(testeHeading)
+  testeSection.appendChild(description)
+  testeSection.appendChild(grid)
+  testeSection.appendChild(viewAllButton)
+
+  // Testimonials Section
   const testimonials1 = [
     { quote: 'Serviço excelente, recomendo!', author: 'João Silva' },
     { quote: 'Atendimento impecável!', author: 'Maria Oliveira' },
@@ -69,38 +164,27 @@ export function renderHome() {
     },
   ]
 
-  // Função para criar o container do carousel dinamicamente
   function createCarouselContainer(id, parent) {
     const containerCarousel = document.createElement('div')
     containerCarousel.classList.add('carousel-container')
     containerCarousel.id = id
-
-    // Adiciona o container dentro da seção pai (parent)
     parent.appendChild(containerCarousel)
-
     return containerCarousel
   }
 
-  // Criação da seção de carousels
   const testimonialsSection = document.createElement('section')
   testimonialsSection.className = 'testimonials-section'
+  testeSection.insertAdjacentElement('afterend', testimonialsSection)
 
-  // Adiciona a nova seção após a seção hero
-  heroSection.insertAdjacentElement('afterend', testimonialsSection)
-
-  // Cria os containers dentro da nova seção de carousels
   const carousel1 = createCarouselContainer(
     'testimonialCarousel1',
     testimonialsSection
   )
-  const carousel2 = createCarouselContainer(
+  /*const carousel2 = createCarouselContainer(
     'testimonialCarousel2',
     testimonialsSection
-  )
+  )*/
 
-  // Instância 1 do carousel
   createTestimonialCarousel('#testimonialCarousel1', testimonials1)
-
-  // Instância 2 do carousel
-  createTestimonialCarousel('#testimonialCarousel2', testimonials2)
+  //createTestimonialCarousel('#testimonialCarousel2', testimonials2)
 }

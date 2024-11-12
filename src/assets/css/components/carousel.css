@@ -1,29 +1,56 @@
 .carousel-container {
-  width: 80%;
+  width: 90%;
   max-width: 600px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 30px 0 30px;
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-slide {
   display: none;
   text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .carousel-slide.active {
   display: block;
+  opacity: 1;
+}
+
+.carousel-slide img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide p {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.carousel-slide h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
 }
 
 .carousel-controls {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 50%;
+  bottom: 20px;
   width: 100%;
-  transform: translateY(-50%);
+  padding: 0 20px;
 }
 
 .carousel-button {
@@ -31,10 +58,16 @@
   border: none;
   color: white;
   padding: 10px 20px;
+  font-size: 1rem;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
 }
 
 .carousel-button:hover {
   background-color: #0056b3;
+}
+
+.carousel-button:active {
+  transform: scale(0.95);
 }
