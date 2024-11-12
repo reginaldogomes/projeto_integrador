@@ -83,14 +83,59 @@
 }
 
 .gallery-container {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Faz com que as colunas se ajustem automaticamente */
+  gap: 15px; /* Espaçamento entre as imagens */
+  padding: 20px; /* Espaçamento interno da galeria */
 }
 
 .gallery-image {
-  width: 100px;
+  width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 8px; /* Bordas arredondadas nas imagens */
+  object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutis para as imagens */
+  transition: transform 0.3s ease-in-out; /* Animação suave no hover */
+}
+
+.gallery-image:hover {
+  transform: scale(1.05); /* Aumenta um pouco o tamanho da imagem no hover */
+}
+
+.details-container {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.details-header img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
 }

@@ -1,69 +1,69 @@
 export const posts = [
   {
     id: 1,
-    title: 'Descubra o Costão do Santinho: História e Natureza em Harmonia',
+    title:
+      'Cultura e Arte em Florianópolis: Explore o Centro Histórico e Museus',
     excerpt:
-      'Explore o Costão do Santinho, um dos destinos mais icônicos de Florianópolis, que combina belezas naturais com história e arte rupestre.',
+      'Florianópolis é rica em cultura e arte. Conheça museus e o centro histórico da cidade para vivenciar um pouco da história e da arte local.',
     content:
-      'Localizado no extremo norte da ilha de Santa Catarina, o Costão do Santinho é conhecido por suas praias paradisíacas e seu importante legado histórico. Uma das maiores atrações são as inscrições rupestres, que datam de mais de cinco mil anos, revelando vestígios de antigas civilizações que habitaram a região. Além de ser um ponto turístico de grande valor histórico, o Costão do Santinho oferece trilhas ecológicas que proporcionam vistas incríveis da flora e fauna local. O resort de luxo que leva o nome da praia é outro atrativo, oferecendo acomodações de primeira classe e uma gama de atividades para toda a família. Se você busca um lugar para relaxar, curtir a natureza e aprender um pouco mais sobre a história local, o Costão do Santinho é o destino perfeito.',
+      'O centro histórico de Florianópolis é um lugar imperdível para quem deseja mergulhar na cultura e arte da cidade. As ruas são repletas de casarões coloniais, igrejas históricas e praças charmosas, como a Praça XV de Novembro, onde se encontra a Catedral Metropolitana. Um dos principais museus da cidade é o Museu Victor Meirelles, que abriga um acervo de obras do famoso pintor brasileiro. Para quem gosta de arte contemporânea, o Museu de Arte de Santa Catarina (MASC) é uma excelente opção, oferecendo exposições de artistas locais e internacionais. Não deixe de explorar também as diversas galerias de arte espalhadas pela cidade, que oferecem uma visão única da produção artística de Florianópolis.',
     author: 'João Silva',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://www.queroviajarmais.com/wp-content/uploads/2015/11/museus-em-florianopolis.jpg',
   },
   {
     id: 2,
-    title: 'Lagoa da Conceição: A Vida Noturna e o Coração Cultural de Floripa',
+    title: 'Gastronomia de Florianópolis: Sabores Imperdíveis da Ilha',
     excerpt:
-      'A Lagoa da Conceição é o ponto de encontro perfeito para quem busca agito e cultura, com uma mistura de restaurantes, bares e vida noturna vibrante.',
+      'Florianópolis é conhecida por sua rica gastronomia. Descubra os melhores pratos e restaurantes da cidade para saborear a culinária local.',
     content:
-      'Situada no centro geográfico da ilha, a Lagoa da Conceição é um dos destinos mais movimentados de Florianópolis. Além de ser cercada por montanhas e florestas exuberantes, a Lagoa é o epicentro da vida noturna da cidade, atraindo turistas e moradores com sua vibrante oferta de bares, restaurantes e casas noturnas. Durante o dia, é possível praticar esportes aquáticos como windsurf e stand up paddle, ou simplesmente relaxar nas margens da lagoa. À noite, o lugar se transforma em um verdadeiro polo cultural, com música ao vivo, festas e uma gastronomia diversificada, que vai desde a culinária local até pratos internacionais. Não deixe de experimentar os frutos do mar frescos em um dos muitos restaurantes ao redor da Lagoa. Com opções para todos os gostos, a Lagoa da Conceição é o lugar ideal para quem quer aproveitar o melhor de Florianópolis, tanto de dia quanto de noite.',
+      'A gastronomia de Florianópolis é uma das mais ricas do Brasil, com forte influência açoriana e uma grande variedade de frutos do mar. Não deixe de experimentar a famosa "sequência de camarão", que combina camarões frescos com acompanhamentos típicos. Outro prato tradicional é a "tainha assada", frequentemente servida nas festas de verão. Ribeirão da Ilha é o local ideal para saborear ostras frescas, sendo o bairro mais conhecido por sua produção. Além disso, a cidade possui uma grande oferta de restaurantes que variam da culinária típica local a pratos internacionais, para todos os gostos e bolsos. Para os amantes de café, Florianópolis também é um excelente destino, com diversas cafeterias que oferecem blends especiais e ambiente acolhedores.',
     author: 'Maria Oliveira',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://www.pousadadossonhos.com.br/wp-content/uploads/2017/12/146928-praia-e-gastronomia-voce-conhece-os-pratos-tipicos-de-florianopolis-1.jpg',
   },
   {
     id: 3,
-    title: 'As Melhores Trilhas de Florianópolis para Aventureiros',
+    title: 'Arte e Cultura no Mercado Público de Florianópolis',
     excerpt:
-      'Florianópolis é o paraíso dos aventureiros, com trilhas que vão desde passeios tranquilos até desafios para os mais experientes.',
+      'O Mercado Público de Florianópolis é o ponto de encontro perfeito para quem deseja vivenciar a cultura local, com produtos típicos e apresentações artísticas.',
     content:
-      'Para os amantes de aventura e natureza, Florianópolis oferece uma variedade de trilhas que atravessam paisagens deslumbrantes e preservadas. Entre as mais famosas, a Trilha da Lagoinha do Leste é um verdadeiro desafio, recompensado pela chegada a uma praia selvagem de beleza intocada. Para os que preferem uma trilha mais leve, a Trilha do Gravatá oferece vistas panorâmicas do mar e das montanhas da ilha. Além disso, a Trilha do Morro da Aranha é ideal para quem busca um pouco de história, pois passa por antigas fortificações e mirantes estratégicos usados na defesa da ilha. Independentemente do nível de dificuldade, todas as trilhas oferecem uma conexão única com a natureza exuberante de Florianópolis, onde o visitante pode observar uma rica biodiversidade e paisagens cinematográficas. Não esqueça de levar água, protetor solar e uma câmera para registrar as paisagens inesquecíveis.',
+      'O Mercado Público de Florianópolis é um lugar onde se pode sentir a verdadeira essência da cidade. Além de ser um ponto turístico importante, o mercado oferece uma rica experiência cultural, com barracas de artesanato, produtos locais e iguarias típicas da culinária catarinense. Ao visitar o mercado, você também pode aproveitar para conhecer as apresentações de música e dança, que frequentemente acontecem em suas dependências. O mercado é um verdadeiro centro de encontro para artistas locais e visitantes que querem descobrir um pouco mais sobre a história e as tradições da cidade. Não deixe de provar um pastel de camarão enquanto explora as diversas bancas de artesanato e comidas típicas.',
     author: 'Carlos Pereira',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://static.ndmais.com.br/2024/02/abre-mercado-publico-de-florianopolis-leo-munhoz-6930-copia-800x533.jpg',
   },
   {
     id: 4,
-    title: 'Jurerê Internacional: Luxo e Diversão em Florianópolis',
+    title: 'Cultura Popular em Florianópolis: Festejos e Tradições',
     excerpt:
-      'Conheça Jurerê Internacional, uma das praias mais badaladas do Brasil, onde o luxo encontra a diversão em Florianópolis.',
+      'As festas populares de Florianópolis são um verdadeiro reflexo de sua cultura vibrante, com destaque para o Carnaval e as celebrações da cultura açoriana.',
     content:
-      'Jurerê Internacional é sinônimo de luxo e sofisticação. Considerada uma das praias mais exclusivas do Brasil, o local oferece uma infraestrutura de alto nível, com resorts, beach clubs e restaurantes requintados. Frequentada por celebridades e turistas exigentes, Jurerê é conhecida por suas festas glamorosas à beira-mar e por seus eventos que atraem pessoas de todo o mundo. Mas a praia não é só para quem busca luxo; suas águas calmas e cristalinas são perfeitas para famílias com crianças ou para aqueles que preferem atividades aquáticas tranquilas, como stand up paddle e caiaque. Além disso, o bairro conta com uma arquitetura moderna e planejada, proporcionando conforto e beleza aos visitantes. Seja para relaxar em um resort de luxo ou para curtir uma festa inesquecível em um dos beach clubs, Jurerê Internacional é o destino certo para quem quer aproveitar o melhor da vida em Florianópolis.',
+      'Florianópolis é uma cidade que celebra suas tradições e cultura por meio de festas populares. O Carnaval de Florianópolis é um dos maiores do sul do Brasil, com desfiles de escolas de samba e blocos de rua que trazem o ritmo e a alegria da cidade para as ruas. Outra festa importante é a Festa do Divino, que celebra as tradições açorianas e é uma das maiores manifestações culturais da ilha. Além disso, as festas de Nossa Senhora do Desterro, padroeira da cidade, atraem moradores e turistas para celebrações religiosas e culturais. Não perca a oportunidade de vivenciar essas festas que acontecem ao longo do ano, e que são uma verdadeira imersão na cultura local.',
     author: 'João Silva',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://www.jornaldocampeche.com.br/wp-content/uploads/2020/01/aaa.jpg',
   },
   {
     id: 5,
-    title: 'Praia da Joaquina: O Paraíso dos Surfistas',
+    title: 'O Charme da Gastronomia e Cultura de Santo Antônio de Lisboa',
     excerpt:
-      'A Praia da Joaquina é o destino preferido dos surfistas em Florianópolis, com ondas perfeitas e campeonatos internacionais.',
+      'Santo Antônio de Lisboa é um dos bairros mais tradicionais de Florianópolis, famoso por sua gastronomia e rica cultura açoriana.',
     content:
-      'Se você é fã de surfe ou simplesmente gosta de ver o esporte em ação, a Praia da Joaquina é o lugar certo para visitar em Florianópolis. Reconhecida internacionalmente por suas ondas fortes e desafiadoras, Joaquina é o palco de grandes campeonatos de surfe que atraem atletas de todo o mundo. Além de ser um paraíso para os surfistas, a praia também oferece opções para quem quer se aventurar nas dunas de areia branca, praticando sandboard ou caminhadas. A infraestrutura local é excelente, com quiosques, restaurantes e lojas que atendem tanto os turistas quanto os praticantes de surfe. A Praia da Joaquina oferece um equilíbrio perfeito entre esportes, natureza e lazer, sendo um dos destinos mais vibrantes e emocionantes de Florianópolis. Não importa se você é iniciante ou profissional no surfe, Joaquina promete momentos inesquecíveis sobre as ondas.',
+      'Santo Antônio de Lisboa é um dos bairros mais encantadores de Florianópolis, com suas casinhas coloridas e ruas de paralelepípedos. Este bairro é famoso pela forte influência açoriana e pela sua deliciosa gastronomia, com muitos restaurantes especializados em frutos do mar e pratos tradicionais como a "tainha assada". A igreja de Santo Antônio é uma das mais antigas de Florianópolis e mantém viva a história da colonização açoriana. Além disso, o bairro é um ótimo lugar para passeios culturais, com diversos ateliês de arte, lojas de artesanato e pequenas galerias que exibem o trabalho de artistas locais. Santo Antônio de Lisboa é o lugar ideal para quem quer combinar um bom prato de comida com uma imersão na história e cultura da ilha.',
     author: 'Maria Oliveira',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://img.nsctotal.com.br/wp-content/uploads/2022/10/15905365.jpg',
   },
   {
     id: 6,
-    title:
-      'Ribeirão da Ilha: Um Passeio pela Tradição Açoriana em Florianópolis',
+    title: 'Arte e Cultura em Lagoa da Conceição: Galerias e Eventos Culturais',
     excerpt:
-      'Conheça o charme de Ribeirão da Ilha, um dos bairros mais antigos de Florianópolis, famoso por sua arquitetura açoriana e gastronomia.',
+      'Lagoa da Conceição é conhecida por sua vida noturna vibrante e também por suas galerias de arte e eventos culturais.',
     content:
-      'Ribeirão da Ilha é uma verdadeira viagem no tempo. Com suas ruas estreitas e casinhas coloridas de arquitetura açoriana, o bairro mantém viva a tradição dos primeiros colonizadores portugueses que chegaram à ilha. Conhecido pela produção de ostras, o local é um dos maiores exportadores desse fruto do mar no Brasil, e muitos restaurantes oferecem ostras frescas preparadas de diversas maneiras. Além da gastronomia de alta qualidade, Ribeirão da Ilha oferece aos visitantes a chance de explorar o centro histórico, com igrejas e construções que datam do século XVIII. As paisagens bucólicas e o clima tranquilo fazem de Ribeirão um ótimo destino para quem quer escapar do agito da cidade e mergulhar na cultura açoriana. Se você é um amante da boa comida e história, este é um lugar que não pode faltar no seu roteiro em Florianópolis.',
+      'Lagoa da Conceição é um dos bairros mais conhecidos de Florianópolis, e não apenas pela sua vida noturna e gastronomia, mas também pelas suas galerias de arte e eventos culturais. No bairro, é possível encontrar ateliês e galerias de artistas locais que exibem arte contemporânea, pinturas, esculturas e fotografias. Durante o ano, Lagoa da Conceição recebe eventos culturais, como festivais de música, exposições e feiras de artesanato, que atraem turistas e moradores em busca de novas experiências culturais. A Lagoa é, sem dúvida, um lugar onde a arte e a cultura se misturam com a natureza e a vida urbana, oferecendo uma experiência única para quem visita a região.',
     author: 'Carlos Pereira',
     urlImg:
-      'https://floripamanha.org/wp-content/uploads/2024/04/costao-santinho-800x533.jpg',
+      'https://static.ndmais.com.br/2018/11/cropped/1952dc1aeeedbb529e03d91ee1fc58943293d11f.jpg',
   },
 ]

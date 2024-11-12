@@ -1,26 +1,16 @@
-.container-blog {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  gap: 24px;
-  padding: 32px;
-}
-
+/* Geral */
+.container-blog,
 .container-blog-post-details {
   padding: 32px;
 }
 
-.container-blog-post-details .section-post-details {
-  margin: 0 auto;
-  display: flex;
-  max-width: 1280px;
+.container-blog {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 24px;
 }
 
-.container-blog-post-details .section-post-details .post-details {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
+/* Estilos de Artigos (Posts) */
 .container-blog article {
   background-color: #fff;
   border-radius: 8px;
@@ -44,10 +34,6 @@
   background-color: #f9f9f9;
 }
 
-.container-blog article p {
-  padding: 20px;
-}
-
 .container-blog h2 {
   font-size: 1.5rem;
   margin: 0 0 10px;
@@ -68,6 +54,7 @@
   text-decoration: underline;
 }
 
+/* Estilos do Post Detalhado (renderPostDetails) */
 .container-blog-post-details {
   max-width: 800px;
   margin: 32px auto;
@@ -77,34 +64,10 @@
   border-radius: 8px;
 }
 
-.post-item {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
-}
-
-.post-item figure {
-  margin: 0;
-}
-
-.post-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-
-.post-item h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-
-.read-more {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.read-more:hover {
-  text-decoration: underline;
+.container-blog-post-details .post-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .post-details img {
@@ -112,6 +75,17 @@
   height: auto;
   border-radius: 4px;
   margin-bottom: 20px;
+}
+
+.post-details h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.post-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
 }
 
 .back-link {

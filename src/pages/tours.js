@@ -61,11 +61,11 @@ export function renderTours() {
     excerpt,
     gallery,
   }) {
-    const card = document.createElement('div')
+    const card = document.createElement('article')
     card.className = 'card'
 
     // Criação do header do card com a imagem
-    const cardHeader = document.createElement('div')
+    const cardHeader = document.createElement('figure')
     cardHeader.className = 'card-header'
     const img = document.createElement('img')
     img.src = imgSrc
@@ -103,7 +103,6 @@ export function renderTours() {
   function showDetails({ imgSrc, imgAlt, title, description, gallery }) {
     // Limpa o conteúdo anterior do detailsContainer
     detailsContainer.innerHTML = ''
-    detailsContainer.appendChild(backButton)
 
     // Header de detalhes com a imagem principal
     const detailsHeader = document.createElement('div')
@@ -138,6 +137,7 @@ export function renderTours() {
     })
 
     detailsContainer.appendChild(galleryContainer)
+    detailsContainer.appendChild(backButton)
 
     // Alterna a visibilidade entre os cards e os detalhes
     detailsContainer.classList.remove('hidden')
