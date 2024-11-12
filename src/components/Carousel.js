@@ -6,19 +6,18 @@ export function createTestimonialCarousel(containerSelector, testimonials) {
   let currentIndex = 0
   let slides = []
 
-  // Função para renderizar os slides
   function renderSlides() {
     testimonials.forEach((testimonial, index) => {
       const slide = document.createElement('div')
       slide.classList.add('carousel-slide')
       if (index === 0) slide.classList.add('active')
       slide.innerHTML = `
-              <p>"${testimonial.quote}"</p>
-              <h4>- ${testimonial.author}</h4>
-          `
+        <img src="${testimonial.image}" alt="Foto de ${testimonial.author}">
+        <p>"${testimonial.quote}"</p>
+        <h4>- ${testimonial.author}</h4>
+      `
       container.appendChild(slide)
     })
-
     slides = container.querySelectorAll('.carousel-slide')
   }
 

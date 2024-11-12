@@ -36,3 +36,152 @@
   color: var(--white);
   text-align: center;
 }
+
+/* Seção de destinos */
+.container-teste {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Divisória com título */
+.container-teste .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.container-teste .divider-line {
+  width: 50px;
+  height: 2px;
+  background-color: #f0c14b;
+  margin: 0 1rem;
+}
+
+.container-teste .divider-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f0c14b;
+  text-transform: uppercase;
+}
+
+/* Título principal */
+.container-teste .heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0e254e;
+  margin-bottom: 1rem;
+}
+
+.container-teste .heading strong {
+  color: #007bff;
+}
+
+/* Descrição */
+.container-teste .description {
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+/* Grade de cartões */
+.container-teste .grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-teste .grid-item {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.container-teste .grid-item:hover {
+  transform: scale(1.05);
+}
+
+.container-teste .grid-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-teste .grid-item-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.container-teste .grid-item:hover .grid-item-image {
+  transform: scale(1.1);
+}
+
+.container-teste .grid-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease;
+}
+
+.container-teste .grid-item:hover .grid-item-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.container-teste .grid-item-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 1;
+}
+
+.container-teste .grid-item-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.container-teste .grid-item-description {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #e0e0e0;
+}
+
+/* Link "Ver Todos" */
+.container-teste .ver-todos {
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 2px solid #007bff;
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.container-teste .ver-todos:hover {
+  color: #0056b3;
+  border-color: #0056b3;
+}
+
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 32px;
+}
